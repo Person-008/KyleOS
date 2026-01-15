@@ -56,5 +56,4 @@ xorg-xinit
 xorg-xinput
 xorg-xkill
 xorg-xrandr
-xterm
 xwayland-satellite
