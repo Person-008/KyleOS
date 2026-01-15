@@ -13,12 +13,13 @@ cd ..
 cat config/20-foregin.sh | yay -Sy
 
 # apply configs
+sudo pacman -Sy --needed rsync
 rsync config/files /
 
 # apply services
-systemctl disable getty@tty1.service
-systemctl disable getty@tty2.service
-systemctl disable getty@tty3.service
-systemctl enable ly@tty3.service
-systemctl enable ly@tty3.service
-systemctl enable ly@tty3.service
+sudo systemctl disable getty@tty1.service
+sudo systemctl disable getty@tty2.service
+sudo systemctl disable getty@tty3.service
+sudo systemctl enable ly@tty3.service
+sudo systemctl enable ly@tty3.service
+sudo systemctl enable ly@tty3.service
