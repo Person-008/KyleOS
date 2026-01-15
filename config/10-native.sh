@@ -36,7 +36,6 @@ nwg-look
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
-plymouth
 rofi
 thunar
 timeshift

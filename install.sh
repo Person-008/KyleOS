@@ -21,7 +21,7 @@ cat config/20-foregin.sh | yay -Sy -
 
 # apply configs
 sudo pacman -Sy --needed rsync
-sudo rsync -cr config/files/ /
+sudo rsync -cr config/files/ / -v
 
 # apply services
 sudo systemctl disable getty@tty1.service
