@@ -1,10 +1,10 @@
 #! /bin/bash
 
 # install pacman packages
-cat config/10-native.sh | pacman -Sy
+cat config/10-native.sh | sudo pacman -Sy
 
 # install AUR packages
-pacman -Sy --needed base-devel
+sudo pacman -Sy --needed base-devel
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
