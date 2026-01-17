@@ -1,0 +1,12 @@
+* {
+	font-family: "BigBlueTerm437 Nerd Font";
+}
+
+#network{
+	margin-right: 20px
+}
+
+#pulseaudio,
+#battery{
+	margin-left: 20px
+}
