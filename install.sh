@@ -30,7 +30,9 @@ cat temp.for | yay -Sy -
 # apply configs
 sudo pacman -Sy --needed rsync
 
-su -c 'rsync -cr root/ / -v; chmod -x /urs/bin/rofi-power-menu; sudo gsettings set org.gnome.desktop.interface gtk-theme RetroDark'
+su -c 'rsync -cr root/ / -v; chmod +x /urs/bin/rofi-power-menu'
+gsettings set org.gnome.desktop.interface gtk-theme RetroDark
+sudo locale-gen
 
 # install pipes.sh
 git clone https://github.com/pipeseroni/pipes.sh
