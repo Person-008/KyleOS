@@ -32,7 +32,12 @@ sudo pacman -Sy --needed rsync
 
 su -c 'rsync -cr root/ / -v; chmod -x /urs/bin/rofi-power-menu; sudo gsettings set org.gnome.desktop.interface gtk-theme RetroDark'
 
-
+# install pipes.sh
+git clone https://github.com/pipeseroni/pipes.sh
+cd pipes.sh
+sudo make install
+cd ..
+sudo rm -r pipes.sh
 
 # apply services
 sudo systemctl disable getty@tty1.service
