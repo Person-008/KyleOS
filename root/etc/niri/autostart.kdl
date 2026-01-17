@@ -1,0 +1,8 @@
+
+
+spawn-at-startup "discord"
+
+spawn-sh-at-startup "lxsession"
+spawn-sh-at-startup "awww-daemon"
+spawn-sh-at-startup "waybar"
+

@@ -14,6 +14,7 @@ fastfetch
 fbset
 ffmpegthumbnailer
 firefox
+ttf-proggyclean-nerd
 fish
 git
 gutenprint
@@ -25,10 +26,6 @@ mplayer
 neovim
 netctl
 niri
-noto-fonts
-noto-fonts-cjk
-noto-fonts-emoji
-noto-fonts-extra
 nwg-look
 pipewire-alsa
 pipewire-jack

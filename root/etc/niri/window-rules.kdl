@@ -1,0 +1,62 @@
+// default window behaviour
+window-rule {
+    geometry-corner-radius 0
+    clip-to-geometry true
+    opacity 1.0
+
+    //baba-is-float true
+}
+
+window-rule{
+	match is-focused=false
+	opacity 0.95
+	focus-ring {
+		off
+	}
+}
+
+// open on right display
+window-rule{
+	match app-id="discord"
+	default-column-width {proportion 1.0;}
+	open-on-output "HDMI-A-2"
+}
+
+// open on center display
+window-rule{
+	match app-id="firefox"
+	match title=" - Anki"
+	match app-id="krita"
+	match title="Krita"
+	exclude title=" Krita"
+	default-column-width {proportion 1.0;}
+	open-on-output "DP-2"
+}
+
+// open floating
+window-rule{
+    match title="File Operation"
+    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+    open-floating true
+}
+
+// floating windows
+window-rule{
+	match is-floating=true
+	geometry-corner-radius 4
+}
+
+
+// windows to block out from screen caprure
+window-rule {
+	match app-id=r#"^org\.keepassxc\.KeePassXC$"#
+	match app-id=r#"^org\.gnome\.World\.Secrets$"#
+	match title="- Gmail"
+	match app-id="firefox" title="Private"
+	match app-id="viewnior"
+	match app-id="thunar"
+	match app-id="discord"
+
+	block-out-from "screen-capture"
+}
+
