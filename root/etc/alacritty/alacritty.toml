@@ -1,0 +1,39 @@
+[terminal]
+shell="/bin/fish"
+# Base16 oomox-RetroDark - alacritty color config
+# oomox-RetroDark
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x3d2d1f'
+foreground = '0xd5c4a1'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x3d2d1f'
+cursor = '0xd5c4a1'
+
+# Normal colors
+[colors.normal]
+black = '0x3d2d1f'
+red = '0xfb4934'
+green = '0xb8bb26'
+yellow = '0xfabd2f'
+blue = '0x83a598'
+magenta = '0xd3869b'
+cyan = '0x8ec07c'
+white = '0xd5c4a1'
+
+# Bright colors
+[colors.bright]
+black = '0x897860'
+red = '0xfe8019'
+green = '0xc09467'
+yellow = '0x614b36'
+blue = '0x29190b'
+magenta = '0xebdbb2'
+cyan = '0xe85012'
+white = '0xfbf1c7'

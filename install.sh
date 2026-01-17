@@ -1,14 +1,22 @@
 #! /bin/bash
 
+# create temporary install list
+cat native.sh > temp.nat
+cat foreign.sh > temp.for
+
+
 # install nvidia drivers if nececarry
+echo
+echo \#############################################################################################################
+echo
 read -p "install nvidia drivers? [y/n]" -n 1 -r
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-	sudo pacman -S nvidia-open-dkms
+	echo nvidia-open-dkms >> temp.nat
 fi
 
 # install pacman packages
-cat native.sh | sudo pacman -Sy -
+cat temp.nat | sudo pacman -Sy -
 
 # install AUR packages
 sudo pacman -Sy --needed base-devel
@@ -17,12 +25,14 @@ cd yay
 makepkg -si
 cd ..
 
-cat foregin.sh | yay -Sy -
+cat temp.for | yay -Sy -
 
 # apply configs
 sudo pacman -Sy --needed rsync
 
-su -c 'rsync -cr root/ / -v'
+su -c 'rsync -cr root/ / -v; chmod -x /urs/bin/rofi-power-menu; sudo gsettings set org.gnome.desktop.interface gtk-theme RetroDark'
+
+
 
 # apply services
 sudo systemctl disable getty@tty1.service

@@ -44,4 +44,6 @@ wireplumber
 wl-clipboard
 xdg-desktop-portal-gtk
 xorg-server
+waybar
+ufw
 xwayland-satellite
