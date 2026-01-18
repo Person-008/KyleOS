@@ -43,4 +43,5 @@ xdg-desktop-portal-gtk
 xorg-server
 waybar
 ufw
+hyfetch
 xwayland-satellite

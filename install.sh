@@ -41,6 +41,8 @@ sudo make install
 cd ..
 sudo rm -r pipes.sh
 
+sudo chsh -s /usr/bin/fish
+
 # apply services
 sudo systemctl disable getty@tty1.service
 sudo systemctl disable getty@tty2.service
