@@ -37,8 +37,8 @@
 	"pulseaudio": {
 		"scroll-step": 5,
 		"max-volume": 150,
-		"format": "{icon} {volume}%",
-		"format-muted": "{icon} --%",
+		"format": "{icon}  {volume}%",
+		"format-muted": "{icon}  --%",
 		"on-click" : "pavucontrol",
 		"tooltip": false,
             	"format-icons": ["", "", ""]
