@@ -19,16 +19,16 @@ fi
 cat temp.nat | sudo pacman -Sy -
 
 # install AUR packages
-sudo pacman -Sy --needed base-devel
+sudo pacman -Sy --needed base-devel --noconfirm
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 cd ..
 
-cat temp.for | yay -Sy -
+cat temp.for | yay -Sy - --nocleanmenu --nodiffemnu
 
 # apply configs
-sudo pacman -Sy --needed rsync
+sudo pacman -Sy --needed rsync --noconfirm
 
 su -c 'rsync -cr root/ / -v'
 chmod +x /usr/bin/rofi-power-menu
