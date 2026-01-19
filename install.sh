@@ -25,7 +25,7 @@ cd yay
 makepkg -si
 cd ..
 
-cat temp.for | yay -Sy - --nocleanmenu --nodiffemnu
+cat temp.for | yay -Sy - --noprovides --answerdiff None --answerclean None --mflags "--noconfirm"
 
 # apply configs
 sudo pacman -Sy --needed rsync --noconfirm
