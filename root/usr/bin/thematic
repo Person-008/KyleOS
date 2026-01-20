@@ -1,0 +1,31 @@
+#!/bin/bash
+
+config=$(< /etc/thematic/$1.conf) || exit 1
+
+layout=$(echo "$config" | grep niri_layout | awk -F'"' '{print $2}') || exit 1
+alacritty=$(echo "$config" | grep alacritty_colors | awk -F'"' '{print $2}') || exit 1
+nvim=$(echo "$config" | grep nvim_colors | awk -F'"' '{print $2}') || exit 1
+theme=$(echo "$config" | grep gtk_theme | awk -F'"' '{print $2}') || exit 1
+icons=$(echo "$config" | grep gtk_icons | awk -F'"' '{print $2}') || exit 1
+wallpaper=$(echo "$config" | grep wallpaper | awk -F'"' '{print $2}') || exit 1
+
+
+
+# apply niri layout
+mkdir -p ~/.config
+cp -r /etc/niri ~/.config/niri
+cp ~/.config/niri/$layout ~/.config/niri/layout.kdl
+
+# apply alacritty color
+mkdir -p ~/.config/alacritty
+cp /etc/alacritty/$alacritty ~/.config/alacritty/alacritty.toml
+
+# apply nvim color
+mkdir -p ~/.config/nvim
+cp /etc/xdg/nvim/$nvim ~/.config/nvim/init.lua
+
+# apply gtk theme and icons
+gsettings set org.gnome.desktop.interface gtk-theme $theme
+gsettings set org.gnome.desktop.interface icon-theme $icons
+
+awww img /usr/share/wallpapers/$wallpaper

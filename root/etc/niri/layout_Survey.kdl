@@ -31,10 +31,10 @@ layout {
 	tab-indicator {
 		hide-when-single-tab
 		place-within-column
-		corner-radius 10
-		width 20
+		corner-radius 1
+		width 10
 		length total-proportion=1.0
-		gaps-between-tabs 4
+		gaps-between-tabs 10
 		position "left"
 		active-color "#e07f5f"
 		inactive-color "#b55944"

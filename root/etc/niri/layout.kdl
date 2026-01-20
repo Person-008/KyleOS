@@ -23,7 +23,7 @@ layout {
     	focus-ring {
 		on
 		width 4
-		active-color "#5e9785"
+		active-color "#ec441d"
 		inactive-color "#000000"
 		urgent-color "#ff0000"
 	}
@@ -31,13 +31,13 @@ layout {
 	tab-indicator {
 		hide-when-single-tab
 		place-within-column
-		corner-radius 10
-		width 20
+		corner-radius 1
+		width 10
 		length total-proportion=1.0
-		gaps-between-tabs 4
+		gaps-between-tabs 10
 		position "left"
-		active-color "#00ff00"
-		inactive-color "#127f5d"
+		active-color "#ec441d"
+		inactive-color "#b55944"
 		urgent-color "ff0000"
 	}
 
