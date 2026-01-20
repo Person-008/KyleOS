@@ -32,8 +32,8 @@ sudo pacman -Sy --needed rsync --noconfirm
 
 su -c 'rsync -crl root/ / -v'
 chmod +x /usr/bin/rofi-power-menu
-gsettings set org.gnome.desktop.interface gtk-theme RetroDark
-gsettings set org.gnome.desktop.interface icon-theme RetroDark
+gsettings set org.gnome.desktop.interface gtk-theme Survey
+gsettings set org.gnome.desktop.interface icon-theme Survey
 sudo locale-gen
 
 # install pipes.sh
