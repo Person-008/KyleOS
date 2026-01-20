@@ -30,7 +30,7 @@ cat temp.for | yay -Sy - --noprovides --answerdiff None --answerclean None --mfl
 # apply configs
 sudo pacman -Sy --needed rsync --noconfirm
 
-su -c 'rsync -cr root/ / -v'
+su -c 'rsync -crl root/ / -v'
 chmod +x /usr/bin/rofi-power-menu
 gsettings set org.gnome.desktop.interface gtk-theme RetroDark
 gsettings set org.gnome.desktop.interface icon-theme RetroDark
