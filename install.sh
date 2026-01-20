@@ -16,7 +16,7 @@ then
 fi
 
 # install pacman packages
-cat temp.nat | sudo pacman -Sy -
+cat temp.nat | sudo pacman -Sy - --noconfirm
 
 # install AUR packages
 sudo pacman -Sy --needed base-devel --noconfirm
