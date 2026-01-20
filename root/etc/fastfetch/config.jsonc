@@ -9,24 +9,66 @@
       "right": 6
     }
   },
+  "display": {
+    "separator": " - "
+  },
   "modules": [
     "break",
     "title",
     "break",
     "separator",
     "break",
-    "os",
-    "kernel",
-    "shell",
+    {
+      "type": "os",
+      "key": "       OS",
+      "format": "{name}"
+    },
+    {
+      "type": "kernel",
+      "key": "   Kernel",
+      "format": "{sysname} {release}"
+    },
+    {
+      "type": "shell",
+      "key": "    Shell",
+      "format": "{process-name}"
+    },
     "break",
-    "wm",
-    "theme",
-    "terminalfont",
-    "cpu",
-    "gpu",
-    "memory",
-    "localip",
-    "poweradapter",
+    {
+      "type": "wm",
+      "key": "       WM",
+      "format": "{process-name}"
+    },
+    {
+      "type": "theme",
+      "key": "    Theme",
+      "format": "{theme2}"
+    },
+    {
+      "type": "terminalfont",
+      "key": "Term-Font",
+      "format": "{name} - {size}p"
+    },
+    {
+      "type": "cpu",
+      "key": "      CPU",
+      "format": "{march} {vendor} - {cores-logical} core"
+    },
+    {
+      "type": "gpu",
+      "key": "      GPU",
+      "format": "{name}"
+    },
+    {
+      "type": "memory",
+      "key": "   Memory",
+      "format": "{used} / {total} - {percentage}"
+    },
+    {
+      "type": "localip",
+      "key": "       IP",
+      "format": "{ipv4}"
+    },
     "break",
     "separator",
     "break",
