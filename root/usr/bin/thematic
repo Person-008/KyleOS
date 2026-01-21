@@ -8,6 +8,7 @@ nvim=$(echo "$config" | grep nvim_colors | awk -F'"' '{print $2}') || exit 1
 theme=$(echo "$config" | grep gtk_theme | awk -F'"' '{print $2}') || exit 1
 icons=$(echo "$config" | grep gtk_icons | awk -F'"' '{print $2}') || exit 1
 wallpaper=$(echo "$config" | grep wallpaper | awk -F'"' '{print $2}') || exit 1
+rofi=$(echo "$config" | grep rofi | awk -F'"' '{print $2}') || exit 1
 
 
 
@@ -23,6 +24,10 @@ cp /etc/alacritty/$alacritty ~/.config/alacritty/alacritty.toml
 # apply nvim color
 mkdir -p ~/.config/nvim
 cp /etc/xdg/nvim/$nvim ~/.config/nvim/init.lua
+
+# apply rofi theme
+mkdir -p ~/.config/rofi
+cp /etc/thematic/$rofi ~/.config/rofi/config.rasi
 
 # apply gtk theme and icons
 gsettings set org.gnome.desktop.interface gtk-theme $theme

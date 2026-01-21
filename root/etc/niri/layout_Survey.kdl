@@ -36,7 +36,7 @@ layout {
 		length total-proportion=1.0
 		gaps-between-tabs 10
 		position "left"
-		active-color "#e07f5f"
+		active-color "#ec441d"
 		inactive-color "#b55944"
 		urgent-color "ff0000"
 	}
