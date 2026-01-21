@@ -44,4 +44,5 @@ xdg-desktop-portal-wlr
 waybar
 ufw
 hyfetch
+swww
 xwayland-satellite
