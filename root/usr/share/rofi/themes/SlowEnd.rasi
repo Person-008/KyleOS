@@ -1,0 +1,26 @@
+
+window {
+  padding: 1em;
+
+  width:  30%; 
+  font-family: "proggyclean Nerd Font";
+}
+
+mainbox {
+  children: [inputbar,listview];
+}
+
+inputbar {
+  children: [ entry ];
+  margin: 5px;
+}
+
+listview, {
+  margin: 5px;
+  lines:   2;
+  columns: 3;
+}
+
+element {
+    orientation: vertical;
+}
