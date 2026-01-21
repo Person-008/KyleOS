@@ -31,7 +31,6 @@ cat temp.for | yay -Sy - --noprovides --answerdiff None --answerclean None --mfl
 sudo pacman -Sy --needed rsync --noconfirm
 
 su -c 'rsync -crl root/ / -v'
-chmod +x /usr/bin/rofi-power-menu
 gsettings set org.gnome.desktop.interface gtk-theme Survey
 gsettings set org.gnome.desktop.interface icon-theme Survey
 sudo locale-gen
