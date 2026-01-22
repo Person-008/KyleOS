@@ -4,8 +4,6 @@ binds {
     Mod+space hotkey-overlay-title="rofi window" { spawn-sh "pkill rofi || rofi -show window"; }
     Mod+T hotkey-overlay-title="retro-console" { spawn "cool-retro-term"; }
 
-    Num_Lock hotkey-overlay-title="Mute Microphone" { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"; }
-
     // Mod-Shift-/, which is usually the same as Mod-?,
     // shows a list of important hotkeys.
     Mod+Shift+ssharp { show-hotkey-overlay; }
