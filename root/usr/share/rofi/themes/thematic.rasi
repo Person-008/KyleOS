@@ -1,9 +1,12 @@
+@import "~/.config/rofi/color.rasi"
 
+* {
+  font: "proggyclean Nerd Font 20";
+}
 window {
-  padding: 1em;
+  padding: 0.5em;
 
   width:  30%; 
-  font-family: "proggyclean Nerd Font";
 }
 
 mainbox {
@@ -17,10 +20,10 @@ inputbar {
 
 listview, {
   margin: 5px;
-  lines:   2;
-  columns: 3;
+  lines:   6;
 }
 
 element {
     orientation: vertical;
 }
+

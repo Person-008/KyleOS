@@ -2,6 +2,11 @@
 
 output "eDP-1" {
     position x=3840 y=400
-    scale 1
+    scale 1.5
 }
-
+output "DP-1" {
+    position x=0 y=000
+}
+output "HDMI-A-1" {
+    position x=1920 y=00
+}

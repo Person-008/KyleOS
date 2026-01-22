@@ -30,9 +30,9 @@ gestures {
 	}
 }
 
-include "layout.kdl"
+include "theme.kdl"
 include "autostart.kdl"
-include "output.kdl"
+include "/etc/niri/output.kdl"
 include "binds.kdl"
 include "window-rules.kdl"
 

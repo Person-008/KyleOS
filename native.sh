@@ -5,6 +5,8 @@ alsa-utils
 aspell
 cantarell-fonts
 cool-retro-term
+openssh
+man
 cowsay
 cups
 cups-browsed
@@ -13,6 +15,7 @@ cups-pdf
 fastfetch
 fbset
 ffmpegthumbnailer
+exfat-utils
 firefox
 ttf-proggyclean-nerd
 fish
@@ -44,5 +47,8 @@ xdg-desktop-portal-wlr
 waybar
 ufw
 hyfetch
+noto-fonts-cjk
+noto-fonts-emoji
+noto-fonts
 swww
 xwayland-satellite
