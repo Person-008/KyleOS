@@ -28,6 +28,7 @@ ly
 mplayer
 neovim
 netctl
+swaylock
 niri
 nwg-look
 pipewire-alsa
@@ -35,6 +36,8 @@ pipewire-jack
 pipewire-pulse
 rofi
 thunar
+tumbler
+viewnior
 timeshift
 ttf-dejavu
 ttf-liberation
