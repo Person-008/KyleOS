@@ -36,6 +36,6 @@ echo "@theme \"/etc/thematic/$rofi\"" > ~/.config/rofi/color.rasi
 gsettings set org.gnome.desktop.interface gtk-theme $theme
 gsettings set org.gnome.desktop.interface icon-theme $icons
 
-swww img /usr/share/wallpapers/$wallpaper --transition-type wipe --transition-angle 30 --transition-duration 0.2 --transition-fps 60
+awww img /usr/share/wallpapers/$wallpaper --transition-type wipe --transition-angle 30 --transition-duration 0.2 --transition-fps 60
 
 

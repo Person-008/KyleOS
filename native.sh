@@ -50,5 +50,4 @@ hyfetch
 noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts
-swww
 xwayland-satellite
