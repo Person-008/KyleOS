@@ -35,6 +35,10 @@ gsettings set org.gnome.desktop.interface gtk-theme Survey
 gsettings set org.gnome.desktop.interface icon-theme Survey
 sudo locale-gen
 
+sudo chmod +x /usr/bin/thematic
+sudo chmod +x /usr/bin/thematic-rofi-menu
+sudo chmod +x /usr/bin/thematic-power-menu
+
 # install pipes.sh
 git clone https://github.com/pipeseroni/pipes.sh
 cd pipes.sh
@@ -43,6 +47,7 @@ cd ..
 sudo rm -r pipes.sh
 
 sudo chsh -s /usr/bin/fish
+chsh -s /usr/bin/fish
 
 # apply services
 sudo systemctl disable getty@tty1.service
