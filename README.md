@@ -81,8 +81,8 @@ for gtk themes and icons i recomment [this](https://github.com/themix-project/th
 
 The Artworks for the Wallpapers were not created by me.
 
-[Dyson.gif](https://github.com/Person-008/KyleOS/blob/main/root/usr/share/wallpapers/Dyson.gif) - [Dyson Analasys](https://www.newgrounds.com/art/view/prisonercoin/dyson-anaysis) by [PrisonerCoin(2023)](https://prisonercoin.newgrounds.com)
-[Frontier.gif](https://github.com/Person-008/KyleOS/blob/main/root/usr/share/wallpapers/Frontier.gif) - [Final Frontier](https://www.newgrounds.com/art/view/prisonercoin/final-frontier) [by PrisonerCoin(2022)](https://prisonercoin.newgrounds.com)
-[Puncture.gif](https://github.com/Person-008/KyleOS/blob/main/root/usr/share/wallpapers/Puncture.gif) - [Puncture](https://www.newgrounds.com/art/view/prisonercoin/puncture) by [PrisonerCoin(2023)](https://prisonercoin.newgrounds.com) 
-[SlowEnd.gif](https://github.com/Person-008/KyleOS/blob/main/root/usr/share/wallpapers/SlowEnd.gif) - [Slow End](https://www.newgrounds.com/art/view/prisonercoin/slow-end) by [PrisonerCoin(2023)](https://prisonercoin.newgrounds.com) 
-[Survey.jpg](https://github.com/Person-008/KyleOS/blob/main/root/usr/share/wallpapers/Survey.jpg) - [Survey Complete](https://www.artstation.com/artwork/Ze5nDX) by [PrisonerCoin(2021)](https://prisonercoin.newgrounds.com) 
+[Dyson.gif](https://github.com/Person-008/KyleOS/blob/main/root/usr/share/wallpapers/Dyson.gif) - [Dyson Analasys](https://www.newgrounds.com/art/view/prisonercoin/dyson-anaysis) by [PrisonerCoin(2023)](https://prisonercoin.newgrounds.com)  
+[Frontier.gif](https://github.com/Person-008/KyleOS/blob/main/root/usr/share/wallpapers/Frontier.gif) - [Final Frontier](https://www.newgrounds.com/art/view/prisonercoin/final-frontier) [by PrisonerCoin(2022)](https://prisonercoin.newgrounds.com)  
+[Puncture.gif](https://github.com/Person-008/KyleOS/blob/main/root/usr/share/wallpapers/Puncture.gif) - [Puncture](https://www.newgrounds.com/art/view/prisonercoin/puncture) by [PrisonerCoin(2023)](https://prisonercoin.newgrounds.com)  
+[SlowEnd.gif](https://github.com/Person-008/KyleOS/blob/main/root/usr/share/wallpapers/SlowEnd.gif) - [Slow End](https://www.newgrounds.com/art/view/prisonercoin/slow-end) by [PrisonerCoin(2023)](https://prisonercoin.newgrounds.com)  
+[Survey.jpg](https://github.com/Person-008/KyleOS/blob/main/root/usr/share/wallpapers/Survey.jpg) - [Survey Complete](https://www.artstation.com/artwork/Ze5nDX) by [PrisonerCoin(2021)](https://prisonercoin.newgrounds.com)  
