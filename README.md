@@ -31,11 +31,11 @@ the full package list can be found in [native.sh](https://github.com/Person-008/
 TODO: add images
 
 themes are applied to:  
-    - alacritty  
-    - gtk theme/icons  
-    - nvim  
-    - niri  
-    - wallpaper  
+- alacritty  
+- gtk theme/icons  
+- nvim  
+- niri  
+- wallpaper  
 
 ## Disclaimer
 
