@@ -1,0 +1,37 @@
+@import "~/.config/rofi/color.rasi"
+
+window {
+padding: 0.5em;
+
+}
+
+mainbox {
+children: [listview];
+}
+
+
+listview, {
+border: 0px;
+margin: 5px;
+scrollbar: false;
+lines:   1;
+columns: 5;
+}
+
+element {
+children: [ element-icon, element-text ];
+orientation: vertical;
+}
+
+element-icon {
+size: 15em;
+}
+
+
+element-text {
+font: "proggyclean Nerd Font 20";
+vertical-align: 0.5;
+horizontal-align: 0.5;
+background-color: #00000000;
+}
+

@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+for config in /etc/thematic/*.conf; do
+	conf=$(< $config)
+	theme=$(echo "$conf" | grep gtk_theme | awk -F'"' '{print $2}')
+
+
+	if [ "$*" = "$theme" ]; then
+		thematic $theme
+		exit 0
+	fi
+done
+
+if [ "$@" ]; then
+	# Override the previously set prompt.
+	echo -en "\x00prompt\x1fChange prompt\n"
+else
+	for config in /etc/thematic/*.conf; do
+		conf=$(< $config)
+		theme=$(echo "$conf" | grep gtk_theme | awk -F'"' '{print $2}')
+		wallpaper=$(echo "$conf" | grep wallpaper | awk -F'"' '{print $2}') || exit 1
+		echo -en "$theme\0icon\x1f/usr/share/wallpapers/$wallpaper\n"
+
+	done
+fi

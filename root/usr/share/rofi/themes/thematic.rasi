@@ -19,6 +19,8 @@ inputbar {
 }
 
 listview, {
+  border: 0px;
+  scrollbar: false;
   margin: 5px;
   lines:   6;
 }

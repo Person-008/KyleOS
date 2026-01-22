@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+
+if [ "$*" = "Shut Down" ]; then
+	command=$"systemctl poweroff"
+	# Override the previously set prompt.
+	echo -en "\x00prompt\x1fChange prompt\n"
+	echo -en "Cancel\0icon\x1f/usr/share/icons/Survey/scalable/actions/window-close-symbolic.svg\n"
+	echo -en "Confirm​\0icon\x1f/usr/share/icons/Survey/scalable/actions/object-select-symbolic.svg\n"
+fi
+
+if [ "$*" = "Reboot" ]; then
+	command=$"systemctl reboot"
+	# Override the previously set prompt.
+	echo -en "\x00prompt\x1fChange prompt\n"
+	echo -en "Cancel\0icon\x1f/usr/share/icons/Survey/scalable/actions/window-close-symbolic.svg\n"
+	echo -en "Confirm\0icon\x1f/usr/share/icons/Survey/scalable/actions/object-select-symbolic.svg\n"
+fi
+
+if [ "$*" = "Confirm​" ]; then
+	systemctl poweroff
+	exit 0
+fi
+
+if [ "$*" = "Confirm" ]; then
+	systemctl reboot
+	exit 0
+fi
+
+if [ "$*" = "Cancel" ]; then
+	exit 0
+fi
+
+if [ "$*" = "Lock Screen" ]; then
+	lock.sh
+	exit 0
+fi
+
+if [ "$@" ]; then
+	# Override the previously set prompt.
+	echo -en "\x00prompt\x1fChange prompt\n"
+else
+	echo -en "Lock Screen\0icon\x1f/usr/share/icons/Survey/scalable/status/system-lock-screen-symbolic.svg\n"
+	echo -en "Shut Down\0icon\x1f/usr/share/icons/Survey/scalable/actions/system-devices-symbolic.svg\n"
+	echo -en "Reboot\0icon\x1f/usr/share/icons/Survey/scalable/actions/view-refresh-symbolic.svg\n"
+fi
