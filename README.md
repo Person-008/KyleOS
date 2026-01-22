@@ -2,11 +2,11 @@
 
 ---
 
-[What is this?](#what-is-this)](#why)
-[Disclaimer](#)
-[Installing](#installing)
-[Custom Themes](#custom-themes)
-[Credits](#credits)
+[What is this?](#what-is-this)  
+[Disclaimer](#disclaimer)  
+[Installing](#installing)  
+[Custom Themes](#custom-themes)  
+[Credits](#credits)  
 
 ## What is this?
 
