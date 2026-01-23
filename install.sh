@@ -1,8 +1,6 @@
 #! /bin/bash
 
-sudo echo sarting installation
 
-(bash -c "while :; do sudo -v; sleep 5; done") &
 # create temporary install list
 cat native.sh > temp.nat
 cat foreign.sh > temp.fo
