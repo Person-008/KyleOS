@@ -45,7 +45,7 @@ themes are applied to:
 ## Installing
 
 > [!WARNING]
-> Use this at your own risk.  
+> Follow these instructions at your own risk.  
 > I am not responsible if any of this code causes loss of data.  
 > Be a responsible adult, read the scripts.  
 
