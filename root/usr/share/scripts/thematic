@@ -9,7 +9,7 @@ theme=$(echo "$config" | grep gtk_theme | awk -F'"' '{print $2}') || exit 1
 icons=$(echo "$config" | grep gtk_icons | awk -F'"' '{print $2}') || exit 1
 wallpaper=$(echo "$config" | grep wallpaper | awk -F'"' '{print $2}') || exit 1
 rofi=$(echo "$config" | grep rofi | awk -F'"' '{print $2}') || exit 1
-
+mako=$(echo "$config" | grep mako | awk -F'"' '{print $2}') || exit 1
 
 
 # apply niri layout
@@ -28,9 +28,14 @@ cp /etc/alacritty/$alacritty ~/.config/alacritty/alacritty.toml
 mkdir -p ~/.config/nvim
 cp /etc/xdg/nvim/$nvim ~/.config/nvim/init.lua
 
+# apply nvim color
+mkdir -p ~/.config/mako
+cp /etc/mako/$mako ~/.config/mako/config
+
 # apply rofi theme
 mkdir -p ~/.config/rofi
 echo "@theme \"/etc/thematic/$rofi\"" > ~/.config/rofi/color.rasi
+
 
 # apply gtk theme and icons
 gsettings set org.gnome.desktop.interface gtk-theme $theme
@@ -38,4 +43,5 @@ gsettings set org.gnome.desktop.interface icon-theme $icons
 
 awww img /usr/share/wallpapers/$wallpaper --transition-type wipe --transition-angle 30 --transition-duration 0.2 --transition-fps 60
 
-
+killall mako
+mako --default-timeout 10000

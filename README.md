@@ -21,7 +21,7 @@ WM: Niri
 Terminal: alacritty
 Bar: waybar
 Menu: rofi
-Notification: TODO
+Notification: mako
 File Manager: Thunar & ranger
 Lockscreen: swaylock (using [lock.sh](https://github.com/Person-008/KyleOS/blob/main/root/usr/bin/lock.sh))
 Themes based on artworks by [PrisonerCoin](https://prisonercoin.newgrounds.com/)
@@ -40,8 +40,8 @@ themes are applied to:
 ## Disclaimer
 
 Use this at your own risk.
-I am not responsible for your data.
-Be a responsible adult.
+I am not responsible if any of this code causes loss of data.
+Be a responsible adult, read the scripts.
 
 ## Installing
 
@@ -55,7 +55,8 @@ Be a responsible adult.
 The script will ask for your password and confirmation a handful of times  
 
 After the script has run launch ```fish``` and follow the instructions to set up ```hyfetch```  
-Now restart and log in  
+This is necessary because fish is configured to launch with hyfetch, and the first time hyfetch is launched it asks for configuration  
+which causes a black screen when logging in to Niri if it is not configured (i may or may not look into finding a fix for this)
 
 The Wallpaper will not be set on the first launch to change the theme and apply a wallpaper press ```Mod + T```
 The custom rofi theme "thematic" needs to be enabled using ```rofi-theme-selector```
