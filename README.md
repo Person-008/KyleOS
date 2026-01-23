@@ -3,7 +3,6 @@
 ---
 
 [What is this?](#what-is-this)  
-[Disclaimer](#disclaimer)  
 [Installing](#installing)  
 [Custom Themes](#custom-themes)  
 [Credits](#credits)  
@@ -37,13 +36,13 @@ themes are applied to:
 - niri  
 - wallpaper  
 
-## Disclaimer
-
-Use this at your own risk.
-I am not responsible if any of this code causes loss of data.
-Be a responsible adult, read the scripts.
-
 ## Installing
+
+> [!WARNING]
+> Use this at your own risk.
+> I am not responsible if any of this code causes loss of data.
+> Be a responsible adult, read the scripts.
+
 
 - follow the Arch Linux [Installation guide](https://wiki.archlinux.org/title/Installation_guide) to set up a minimal arch installation with internet access
 - clone the repo ```git clone https://github.com/Person-008/KyleOS```
