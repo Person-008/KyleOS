@@ -1,5 +1,6 @@
 #! /bin/bash
 
+(bash -c "while :; do sudo -v; sleep 5; done") &
 # create temporary install list
 cat native.sh > temp.nat
 cat foreign.sh > temp.fo
@@ -123,7 +124,7 @@ cd yay
 makepkg -si
 cd ..
 
-cat temp.fo | yay -Sy - --answerdiff None --answerclean None --mflags "--noconfirm"
+cat temp.fo | yay -Sy - --answerdiff None --answerclean None --mflags "--noconfirm" --sudoloop
 
 # apply configs
 sudo pacman -Sy --needed rsync --noconfirm
