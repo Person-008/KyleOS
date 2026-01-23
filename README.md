@@ -18,14 +18,14 @@ And I don't plan on meeting anyone named Kyle.
 
 |   |   |   |
 |---|---|---|
-| Distro | Arch |
-| WM | Niri |
-| Terminal | alacritty |
-| Bar | waybar |
-| Menu | rofi |
-| Notification | mako |
-| File Manager | Thunar & ranger |
-| Lockscreen | swaylock  (using [lock.sh](https://github.com/Person-008/KyleOS/blob/main/root/usr/share/scripts/lock.sh)) |
+| Distro | [Arch](https://archlinux.org/) |
+| WM | [Niri](https://github.com/YaLTeR/niri) |
+| Terminal | [alacritty](https://github.com/alacritty/alacritty) |
+| Bar | [waybar](https://github.com/Alexays/Waybar/) |
+| Menu | [rofi](https://davatorium.github.io/rofi/) |
+| Notification | [mako](https://github.com/emersion/mako |
+| File Manager | [Thunar](https://docs.xfce.org/xfce/thunar/start) & [ranger](https://ranger.fm/) |
+| Lockscreen | [swaylock](https://github.com/swaywm/swaylock) & [corrupter](https://github.com/r00tman/corrupter)) |
 
 Themes based on artworks by [PrisonerCoin](https://prisonercoin.newgrounds.com/)
 
@@ -33,7 +33,8 @@ Themes based on artworks by [PrisonerCoin](https://prisonercoin.newgrounds.com/)
 > a mostly complete package list can be found in [native.sh](https://github.com/Person-008/KyleOS/blob/main/native.sh) & [foreign.sh](https://github.com/Person-008/KyleOS/blob/main/foreign.sh)
 > some optional packages are listed in [install.sh](https://github.com/Person-008/KyleOS/blob/main/install.sh)
 
-TODO: add images
+TODO: add images  
+
 themes are applied to:  
 - alacritty  
 - gtk theme/icons  
@@ -52,7 +53,7 @@ themes are applied to:
 - follow the Arch Linux [Installation guide](https://wiki.archlinux.org/title/Installation_guide) to set up a minimal arch installation with internet access
 - clone the repo ```git clone https://github.com/Person-008/KyleOS```
 - ```cd KyleOS```
-- install using ```bash install.sh```
+- install using ```bash install.shcurro```
 > [!NOTE]  
 > The script will ask for your password and confirmation a handful of times  
 - follow the prompts
