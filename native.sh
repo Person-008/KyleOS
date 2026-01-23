@@ -34,6 +34,7 @@ nwg-look
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+vimix-cursors
 rofi
 thunar
 tumbler

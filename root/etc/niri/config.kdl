@@ -57,5 +57,7 @@ animations {
 
 cursor{
 	hide-after-inactive-ms 1000
+	xcursor-theme "Vimix-cursors"
+	xcursor-size 32
 }
 
