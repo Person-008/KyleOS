@@ -31,7 +31,7 @@ if [ "$*" = "Cancel" ]; then
 fi
 
 if [ "$*" = "Lock Screen" ]; then
-	lock.sh
+	/usr/share/scripts/lock.sh
 	exit 0
 fi
 

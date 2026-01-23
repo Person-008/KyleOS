@@ -36,7 +36,7 @@ then
 		then
 			echo vulkan-intel >> temp.nat
 		else
-			echo vulcan-radeon >> temp.nat
+			echo vulkan-radeon >> temp.nat
 		fi
 	fi
 fi

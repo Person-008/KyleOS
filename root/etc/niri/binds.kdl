@@ -3,9 +3,6 @@ binds {
     Menu hotkey-overlay-title="rofi drun" { spawn-sh "pkill rofi || rofi -show drun"; }
     Mod+space hotkey-overlay-title="rofi window" { spawn-sh "pkill rofi || rofi -show window"; }
 
-    // Mod-Shift-/, which is usually the same as Mod-?,
-    // shows a list of important hotkeys.
-    Mod+Shift+/ { show-hotkey-overlay; }
 
     Mod+T hotkey-overlay-title="Change theme" { spawn-sh "pkill rofi || exec rofi -config /usr/share/rofi/themes/thematic-rofi-menu.rasi -show powermenu -modi powermenu:/usr/share/scripts/thematic-rofi-menu -show-icons"; }
     // Suggested binds for running programs: terminal, app launcher, screen locker.

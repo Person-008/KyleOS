@@ -45,35 +45,26 @@ Be a responsible adult.
 
 ## Installing
 
-- follow the Arch Linux [Installation guide](https://wiki.archlinux.org/title/Installation_guide) up to [1.7 Connect to the Internet](https://wiki.archlinux.org/title/Installation_guide#Connect_to_the_internet)
-- once you are connected to the internet launch ```archinstall```
-    - select your locales
-    - set up your regions
-    - set up your disp partitioning
-    - set up the root password and at _**least one superuser**_
-    - set the profile to _**minimal**_
-    - if you are using wifi add a [networkmanager](https://wiki.archlinux.org/title/NetworkManager) (I use [iwd](https://wiki.archlinux.org/title/Iwd)) in Additional packages, a wired connection should just work
-    - install
-- ensure the installed system has an internet connection
-- login with your user (**not root**)
-- install git ```sudo pacman -S git``` (you can also select git as an additional package in archinstall)
+- follow the Arch Linux [Installation guide](https://wiki.archlinux.org/title/Installation_guide) to set up a minimal arch installation with internet access
 - clone the repo ```git clone https://github.com/Person-008/KyleOS```
 - ```cd KyleOS```
 - install using ```bash install.sh```
 - follow the prompts
 - reboot
 
-The script will ask for your password a handful of times so you can't leave it unattended
+The script will ask for your password and confirmation a handful of times  
 
-It won't load a wallpaper on the first launch
-to change the theme press ```Mod + T```
+After the script has run launch ```fish``` and follow the instructions to set up ```hyfetch```  
+Now restart and log in  
+
+The Wallpaper will not be set on the first launch to change the theme and apply a wallpaper press ```Mod + T```
+The custom rofi theme "thematic" needs to be enabled using ```rofi-theme-selector```
 
 ## Custom Themes
 
 I am using my own custom theme changer called [thematic](https://github.com/Person-008/KyleOS/tree/main/root/usr/bin)
 
 Custom themes need an entry in /etc/thematic/ThemeName.conf
-the comments explain where to put wich files
 
 for gtk themes and icons i recomment [this](https://github.com/themix-project/themix-gui) tool, though the installation guide seems to be out of date
 
