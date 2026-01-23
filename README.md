@@ -63,8 +63,10 @@ themes are applied to:
 > This is necessary because fish is configured to launch with hyfetch, and the first time hyfetch is launched it asks for configuration  
 > which causes a black screen when logging in to Niri if it is not configured (i may or may not look into finding a fix for this)
 
-The Wallpaper will not be set on the first launch to change the theme and apply a wallpaper press ```Mod + T```
-The custom rofi theme "thematic" needs to be enabled using ```rofi-theme-selector```
+> [!IMPORTANT]  
+> The Wallpaper will not be set on the first launch to change the theme and apply a wallpaper press ```Mod + T```
+> [!IMPORTANT]  
+> The custom rofi theme "thematic" needs to be enabled using ```rofi-theme-selector```
 
 ## Custom Themes
 
