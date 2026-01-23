@@ -9,22 +9,22 @@
 
 ## What is this?
 
-This is an install script with accompanying dotfiles  
-for my personal Arch Linux configuration.
+This is an install script with accompanying dotfiles for my personal Arch Linux configuration.
 
-I call it KyleOS because I want to.
+I call it KyleOS because I want to.  
 No my name is not, and never was Kyle.  
-I also don't know anyone named Kyle.
-And I don't plan on meeting anyone named Kyle.
+I also don't know anyone named Kyle.  
+And I don't plan on meeting anyone named Kyle.  
 
-Distro: Arch
-WM: Niri
-Terminal: alacritty
-Bar: waybar
-Menu: rofi
-Notification: mako
-File Manager: Thunar & ranger
-Lockscreen: swaylock (using [lock.sh](https://github.com/Person-008/KyleOS/blob/main/root/usr/bin/lock.sh))
+| Distro | Arch |
+| WM | Niri |
+| Terminal | alacritty |
+| Bar | waybar |
+| Menu | rofi |
+| Notification | mako |
+| File Manager | Thunar & ranger |
+| Lockscreen | swaylock  (using [lock.sh](https://github.com/Person-008/KyleOS/blob/main/root/usr/share/scripts/lock.sh)) |
+
 Themes based on artworks by [PrisonerCoin](https://prisonercoin.newgrounds.com/)
 
 > [!NOTE]
