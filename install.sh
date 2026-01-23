@@ -2,17 +2,115 @@
 
 # create temporary install list
 cat native.sh > temp.nat
-cat foreign.sh > temp.for
+cat foreign.sh > temp.fo
 
-
-# install nvidia drivers if nececarry
+nvidia=false
 echo
 echo \#############################################################################################################
 echo
-read -p "install nvidia drivers? [y/n]" -n 1 -r
+read -p "install nvidia drivers? [y/n]: "
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
 	echo nvidia-open-dkms >> temp.nat
+	nvidia=true
+fi
+echo
+echo \#############################################################################################################
+echo
+read -p "install steam (ONLY IF MULTILIB IS ENABLED)? [y/n]: "
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	echo steam >> temp.nat
+	if $nvidia
+	then
+		echo nvidia-utils >> temp.nat
+	else
+		echo
+		echo \#############################################################################################################
+		echo
+		read -p "Intel graphics Card? [y/n]: "
+		if [[ $REPLY =~ ^[Yy]$ ]]
+		then
+			echo vulkan-intel >> temp.nat
+		else
+			echo vulcan-radeon >> temp.nat
+		fi
+	fi
+fi
+echo
+echo \#############################################################################################################
+echo
+read -p "install discord? [y/n]: "
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	echo discord >> temp.nat
+fi
+echo
+echo \#############################################################################################################
+echo
+read -p "install vlc with all plugins? [y/n]: "
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	echo vlc >> temp.nat
+	echo vlc-plugins-all >> temp.nat
+fi
+echo
+echo \#############################################################################################################
+echo
+read -p "install krita? [y/n]: "
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	echo krita >> temp.nat
+fi
+echo
+echo \#############################################################################################################
+echo
+read -p "install opentabletdriver? [y/n]: "
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	echo opentabletdriver >> temp.fo
+fi
+echo
+echo \#############################################################################################################
+echo
+read -p "install anki? [y/n]: "
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	echo anki >> temp.fo
+fi
+echo
+echo \#############################################################################################################
+echo
+read -p "install prism launcher? [y/n]: "
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	echo prismlauncher >> temp.nat
+	echo jre21-openjdk >> temp.nat
+fi
+echo
+echo \#############################################################################################################
+echo
+read -p "install fcitx5-mozc (japanese support | needs to be configured)? [y/n]: "
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	echo fcitx5-mozc >> temp.nat
+	echo fcitx5-config-qt >> temp.nat
+fi
+echo
+echo \#############################################################################################################
+echo
+read -p "install obs-studio? [y/n]: "
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	echo obs-studio >> temp.nat
+fi
+echo
+echo \#############################################################################################################
+echo
+read -p "install audacity? [y/n]: "
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	echo audacity >> temp.nat
 fi
 
 # install pacman packages
@@ -25,7 +123,7 @@ cd yay
 makepkg -si
 cd ..
 
-cat temp.for | yay -Sy - --answerdiff None --answerclean None --mflags "--noconfirm"
+cat temp.fo | yay -Sy - --answerdiff None --answerclean None --mflags "--noconfirm"
 
 # apply configs
 sudo pacman -Sy --needed rsync --noconfirm
