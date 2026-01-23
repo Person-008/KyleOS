@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 for config in /etc/thematic/*.conf; do
-	conf=$(< $config)
+	conf=$(cat $config | grep -v "#")
 	theme=$(echo "$conf" | grep gtk_theme | awk -F'"' '{print $2}')
 
 

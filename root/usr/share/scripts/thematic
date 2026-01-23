@@ -1,15 +1,15 @@
 #!/bin/bash
 
-config=$(< /etc/thematic/$1.conf) || exit 1
+config=$(cat /etc/thematic/$1.conf | grep -v "#") || exit 2
 
-niri=$(echo "$config" | grep niri_layout | awk -F'"' '{print $2}') || exit 1
-alacritty=$(echo "$config" | grep alacritty_colors | awk -F'"' '{print $2}') || exit 1
-nvim=$(echo "$config" | grep nvim_colors | awk -F'"' '{print $2}') || exit 1
-theme=$(echo "$config" | grep gtk_theme | awk -F'"' '{print $2}') || exit 1
-icons=$(echo "$config" | grep gtk_icons | awk -F'"' '{print $2}') || exit 1
-wallpaper=$(echo "$config" | grep wallpaper | awk -F'"' '{print $2}') || exit 1
-rofi=$(echo "$config" | grep rofi | awk -F'"' '{print $2}') || exit 1
-mako=$(echo "$config" | grep mako | awk -F'"' '{print $2}') || exit 1
+niri=$(echo "$config" | grep niri_layout | awk -F'"' '{print $2}') || exit 3
+alacritty=$(echo "$config" | grep alacritty_colors | awk -F'"' '{print $2}') || exit 4
+nvim=$(echo "$config" | grep nvim_colors | awk -F'"' '{print $2}') || exit 5
+theme=$(echo "$config" | grep gtk_theme | awk -F'"' '{print $2}') || exit 6
+icons=$(echo "$config" | grep gtk_icons | awk -F'"' '{print $2}') || exit 7
+wallpaper=$(echo "$config" | grep wallpaper | awk -F'"' '{print $2}') || exit 8
+rofi=$(echo "$config" | grep rofi | awk -F'"' '{print $2}') || exit 9
+mako=$(echo "$config" | grep mako | awk -F'"' '{print $2}') || exit 10
 
 
 # apply niri layout
