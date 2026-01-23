@@ -65,6 +65,7 @@ themes are applied to:
 
 > [!IMPORTANT]  
 > The Wallpaper will not be set on the first launch to change the theme and apply a wallpaper press ```Mod + T```
+
 > [!IMPORTANT]  
 > The custom rofi theme "thematic" needs to be enabled using ```rofi-theme-selector```
 
