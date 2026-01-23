@@ -1,0 +1,37 @@
+# Base16 oomox-Dyson - alacritty color config
+# oomox-Dyson
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x191b2b'
+foreground = '0x3a5cc8'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x191b2b'
+cursor = '0x3a5cc8'
+
+# Normal colors
+[colors.normal]
+black = '0x191b2b'
+red = '0xa93140'
+green = '0x37b663'
+yellow = '0xa9b636'
+blue = '0x497fff'
+magenta = '0x957afd'
+cyan = '0x72eef6'
+white = '0x3a5cc8'
+
+# Bright colors
+[colors.bright]
+black = '0x293b79'
+red = '0xa9b636'
+green = '0x516f61'
+yellow = '0x516f61'
+blue = '0x050717'
+magenta = '0xb5ffff'
+cyan = '0x955f27'
+white = '0xb5ffff'
