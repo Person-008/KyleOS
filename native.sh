@@ -30,7 +30,7 @@ neovim
 netctl
 swaylock
 niri
-nwg-look
+gitui
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
