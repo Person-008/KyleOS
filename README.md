@@ -16,6 +16,8 @@ No my name is not, and never was Kyle.
 I also don't know anyone named Kyle.  
 And I don't plan on meeting anyone named Kyle.  
 
+|   |   |   |
+|---|---|---|
 | Distro | Arch |
 | WM | Niri |
 | Terminal | alacritty |
@@ -32,7 +34,6 @@ Themes based on artworks by [PrisonerCoin](https://prisonercoin.newgrounds.com/)
 > some optional packages are listed in [install.sh](https://github.com/Person-008/KyleOS/blob/main/install.sh)
 
 TODO: add images
-
 themes are applied to:  
 - alacritty  
 - gtk theme/icons  
@@ -67,7 +68,7 @@ The custom rofi theme "thematic" needs to be enabled using ```rofi-theme-selecto
 
 ## Custom Themes
 
-I am using my own custom theme changer called [thematic](https://github.com/Person-008/KyleOS/tree/main/root/usr/bin)
+I am using my own custom theme changer called [thematic](https://github.com/Person-008/KyleOS/tree/main/root/usr/share/scripts/thematic)
 
 Custom themes need an entry in /etc/thematic/ThemeName.conf
 > [!NOTE]
