@@ -39,9 +39,9 @@ themes are applied to:
 ## Installing
 
 > [!WARNING]
-> Use this at your own risk.
-> I am not responsible if any of this code causes loss of data.
-> Be a responsible adult, read the scripts.
+> Use this at your own risk.  
+> I am not responsible if any of this code causes loss of data.  
+> Be a responsible adult, read the scripts.  
 
 
 - follow the Arch Linux [Installation guide](https://wiki.archlinux.org/title/Installation_guide) to set up a minimal arch installation with internet access
