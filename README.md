@@ -64,7 +64,7 @@ themes are applied to:
 > which causes a black screen when logging in to Niri if it is not configured (i may or may not look into finding a fix for this)
 
 > [!IMPORTANT]  
-> The Wallpaper will not be set on the first launch
+> The Wallpaper will not be set on the first launch  
 > to change the theme and apply a wallpaper press ```Mod + T```
 
 > [!IMPORTANT]  
