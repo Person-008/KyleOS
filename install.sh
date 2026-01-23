@@ -1,5 +1,7 @@
 #! /bin/bash
 
+sudo echo sarting installation
+
 (bash -c "while :; do sudo -v; sleep 5; done") &
 # create temporary install list
 cat native.sh > temp.nat
@@ -155,3 +157,5 @@ sudo systemctl disable getty@tty3.service
 sudo systemctl enable ly@tty1.service
 sudo systemctl enable ly@tty2.service
 sudo systemctl enable ly@tty3.service
+
+killall bash
