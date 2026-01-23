@@ -6,7 +6,7 @@ for config in /etc/thematic/*.conf; do
 
 
 	if [ "$*" = "$theme" ]; then
-		thematic $theme
+		/usr/share/scripts/thematic $theme
 		exit 0
 	fi
 done

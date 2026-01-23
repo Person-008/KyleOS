@@ -25,7 +25,7 @@ cd yay
 makepkg -si
 cd ..
 
-cat temp.for | yay -Sy - --noprovides --answerdiff None --answerclean None --mflags "--noconfirm"
+cat temp.for | yay -Sy - --answerdiff None --answerclean None --mflags "--noconfirm"
 
 # apply configs
 sudo pacman -Sy --needed rsync --noconfirm
@@ -35,9 +35,9 @@ gsettings set org.gnome.desktop.interface gtk-theme Survey
 gsettings set org.gnome.desktop.interface icon-theme Survey
 sudo locale-gen
 
-sudo chmod +x /usr/bin/thematic
-sudo chmod +x /usr/bin/thematic-rofi-menu
-sudo chmod +x /usr/bin/thematic-power-menu
+sudo chmod +x /usr/share/scripts/thematic
+sudo chmod +x /usr/share/scripts/thematic-rofi-menu
+sudo chmod +x /usr/share/scripts/thematic-power-menu
 
 # install pipes.sh
 git clone https://github.com/pipeseroni/pipes.sh

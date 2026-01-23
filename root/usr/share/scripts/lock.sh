@@ -14,5 +14,4 @@ else
 	done
  
 	swaylock --inside-color 00000000 --inside-wrong-color ff000080 --inside-ver-color 00000000 --inside-clear-color ff800080 --ring-color ffffff --ring-clear-color ffffffff --ring-wrong-color ffffffff --key-hl-color ffffff --bs-hl-color 808080 --text-ver-color 00000000 --ring-ver-color 808080 $args "$@"
-	# double monitor fix by /u/queyenth
 fi
