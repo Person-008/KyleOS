@@ -1,4 +1,4 @@
-@import "~/.config/rofi/color.rasi"
+@import "~/.config/rofi/config.rasi"
 
 * {
   font: "proggyclean Nerd Font 20";
