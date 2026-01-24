@@ -1,4 +1,7 @@
-# Base16 oomox-Puncture - alacritty color config
+[font]
+normal = { family = "proggyclean Nerd Font", style = "Regular" }
+size = 15
+# Base16 oomox-prisonercoin-survey-complete - alacritty color config
 # oomox-Puncture
 
 [colors]
