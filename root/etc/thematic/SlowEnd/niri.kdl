@@ -1,0 +1,23 @@
+
+layout {
+    	focus-ring {
+		on
+		width 4
+		active-color "#6bb8c8"
+		inactive-color "#000000"
+		urgent-color "#ff0000"
+	}
+
+	tab-indicator {
+		hide-when-single-tab
+		place-within-column
+		corner-radius 1
+		width 10
+		length total-proportion=1.0
+		gaps-between-tabs 10
+		position "left"
+		active-color "#6bb8c8"
+		inactive-color "#4e1345"
+		urgent-color "ff0000"
+	}
+}

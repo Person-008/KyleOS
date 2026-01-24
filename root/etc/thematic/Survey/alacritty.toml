@@ -1,0 +1,40 @@
+[font]
+normal = { family = "proggyclean Nerd Font", style = "Regular" }
+size = 15
+# Base16 oomox-prisonercoin-survey-complete - alacritty color config
+# oomox-prisonercoin-survey-complete
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x14233a'
+foreground = '0xe07f5f'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x14233a'
+cursor = '0xe07f5f'
+
+# Normal colors
+[colors.normal]
+black = '0x14233a'
+red = '0xae544b'
+green = '0xaaae4b'
+yellow = '0xae914b'
+blue = '0x4d4bae'
+magenta = '0xae4b78'
+cyan = '0x4baea4'
+white = '0xe07f5f'
+
+# Bright colors
+[colors.bright]
+black = '0x79514c'
+red = '0xae914b'
+green = '0x774443'
+yellow = '0x774443'
+blue = '0x000f26'
+magenta = '0xeec399'
+cyan = '0x9a5e37'
+white = '0xeec399'

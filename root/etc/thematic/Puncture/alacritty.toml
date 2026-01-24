@@ -1,0 +1,37 @@
+# Base16 oomox-Puncture - alacritty color config
+# oomox-Puncture
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x041132'
+foreground = '0x37b98a'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x041132'
+cursor = '0x37b98a'
+
+# Normal colors
+[colors.normal]
+black = '0x041132'
+red = '0xbc2531'
+green = '0x54fe78'
+yellow = '0xb59334'
+blue = '0x3b52b2'
+magenta = '0x903bb2'
+cyan = '0x37b98a'
+white = '0x37b98a'
+
+# Bright colors
+[colors.bright]
+black = '0x1d655d'
+red = '0xb59334'
+green = '0x14516a'
+yellow = '0x14516a'
+blue = '0x00001e'
+magenta = '0x7afccd'
+cyan = '0xa4481e'
+white = '0x7afccd'

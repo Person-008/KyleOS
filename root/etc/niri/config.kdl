@@ -30,11 +30,12 @@ gestures {
 	}
 }
 
-include "theme.kdl"
-include "autostart.kdl"
+include "/etc/niri/layout.kdl"
+include "/etc/niri/autostart.kdl"
 include "/etc/niri/output.kdl"
-include "binds.kdl"
-include "window-rules.kdl"
+include "/etc/niri/binds.kdl"
+include "/etc/niri/window-rules.kdl"
+include "theme.kdl"
 
 hotkey-overlay {
 	skip-at-startup

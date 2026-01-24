@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
 
-for config in /etc/thematic/*.conf; do
-	conf=$(cat $config | grep -v "#")
-	theme=$(echo "$conf" | grep gtk_theme | awk -F'"' '{print $2}')
+for config in /etc/thematic/*; do
 
+	# get the theme name
+	theme=$(basename $config)
 
+	# load the theme if it was selected, then exit
 	if [ "$*" = "$theme" ]; then
-		/usr/share/scripts/thematic $theme
+		bash /usr/share/scripts/thematic $theme
+		wait
 		exit 0
 	fi
 done
@@ -15,11 +17,12 @@ if [ "$@" ]; then
 	# Override the previously set prompt.
 	echo -en "\x00prompt\x1fChange prompt\n"
 else
-	for config in /etc/thematic/*.conf; do
-		conf=$(< $config)
-		theme=$(echo "$conf" | grep gtk_theme | awk -F'"' '{print $2}')
-		wallpaper=$(echo "$conf" | grep wallpaper | awk -F'"' '{print $2}') || exit 1
-		echo -en "$theme\0icon\x1f/usr/share/wallpapers/$wallpaper\n"
+	for config in /etc/thematic/*; do
+		# get the theme name
+		theme=$(basename $config)
+		config=$(cat $config/theme.conf | grep -v "#")
+		wallpaper=$(echo "$config" | grep WALLPAPER | awk -F'"' '{print $2}') || exit 1
+		echo -en "$theme\0icon\x1f/etc/thematic/$theme/$wallpaper\n"
 
 	done
 fi
