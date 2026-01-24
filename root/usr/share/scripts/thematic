@@ -9,46 +9,33 @@ gtk="$(echo "$config" | grep GTK | awk -F'"' '{print $2}')"
 icon="$(echo "$config" | grep ICON | awk -F'"' '{print $2}')"
 wallpaper="$(echo "$config" | grep WALLPAPER | awk -F'"' '{print $2}')"
 
-echo syncing files
 # SYNC files
 IFS=$'\n'
 for line in $synclist
 do
 	IFS=$' '
 	pair=($(echo $line))
-	echo "syncinv ${pair[0]} -> $HOME/${pair[1]}"
 	rsync --mkpath "${pair[0]}" "$HOME/${pair[1]}"
 done
 
-echo
-echo copying files
 # COPY files
 IFS=$'\n'
 for line in $copylist
 do
 	IFS=$' '
 	pair=($(echo $line))
-	echo "copying /etc/thematic/$1/${pair[0]} -> $HOME/${pair[1]}"
 	rsync -c --mkpath "/etc/thematic/$1/${pair[0]}" "$HOME/${pair[1]}"
 done
 
-echo
-echo "applying gtk theme -> $gtk"
 # GTK theme
 gsettings set org.gnome.desktop.interface gtk-theme $gtk
 
-echo
-echo "applying icon theme -> $icon"
 # ICON theme
 gsettings set org.gnome.desktop.interface icon-theme $icon
 
-echo
-echo "applying wallpaper -> $wallpaper"
 # apply WALLPAPER
 awww img /etc/thematic/$1/$wallpaper --transition-type wipe --transition-angle 30 --transition-duration 0.2 --transition-fps 60
 
-echo
-echo reloading mako
 # reload mako
 makoctl reload
 
