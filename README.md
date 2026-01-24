@@ -50,7 +50,7 @@ themes are applied to:
 > I am not responsible if any of this code causes loss of data.  
 > Be a responsible adult, read the scripts.  
 
-- follow the Arch Linux [Installation guide](https://wiki.archlinux.org/title/Installation_guide) to set up a minimal arch installation with internet access
+- follow the Arch Linux [Installation guide](https://wiki.archlinux.org/title/Installation_guide) to set up a minimal arch installation with internet access, with at least one superuser that isn't root
 - clone the repo ```git clone https://github.com/Person-008/KyleOS```
 - ```cd KyleOS```
 - install using ```bash install.shcurro```
