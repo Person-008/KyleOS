@@ -8,10 +8,6 @@ cool-retro-term
 openssh
 man
 cowsay
-cups
-cups-browsed
-cups-filters
-cups-pdf
 fastfetch
 fbset
 ffmpegthumbnailer
@@ -20,14 +16,12 @@ firefox
 ttf-proggyclean-nerd
 fish
 git
-gutenprint
 htop
 impala
 lxsession
 ly
 mplayer
 neovim
-netctl
 swaylock
 niri
 gitui
