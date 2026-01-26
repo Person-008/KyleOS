@@ -1,4 +1,4 @@
-@import "~/.config/rofi/config.rasi"
+@import "~/.config/rofi/color.rasi"
 
 window {
 padding: 0.5em;
