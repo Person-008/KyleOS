@@ -1,4 +1,4 @@
--- oomox-prisonercoin-survey-complete scheme by oomox-prisonercoin-survey-complete
+-- oomox-Survey scheme by oomox-Survey
 --
 -- Generated from this template:
 --
@@ -14,31 +14,31 @@
 
 -- Base16 colors.
 local gui00 = "#14233a"
-local gui01 = "#774443"
-local gui02 = "#774443"
-local gui03 = "#79514c"
-local gui04 = "#eec399"
-local gui05 = "#e07f5f"
+local gui01 = "#693f40"
+local gui02 = "#693f40"
+local gui03 = "#643e3f"
+local gui04 = "#000f26"
+local gui05 = "#b55944"
 local gui06 = "#eec399"
 local gui07 = "#eec399"
-local gui08 = "#ae544b"
-local gui09 = "#ae914b"
-local gui0A = "#ae914b"
-local gui0B = "#aaae4b"
-local gui0C = "#4baea4"
-local gui0D = "#4d4bae"
-local gui0E = "#ae4b78"
-local gui0F = "#9a5e37"
+local gui08 = "#b65753"
+local gui09 = "#7d7d02"
+local gui0A = "#7d7d02"
+local gui0B = "#408b48"
+local gui0C = "#008e80"
+local gui0D = "#327cbd"
+local gui0E = "#8c62b0"
+local gui0F = "#855516"
 
 -- Base24 colors.
 local gui10 = "#14233a"
 local gui11 = "#14233a"
-local gui12 = "#ae544b"
-local gui13 = "#ae914b"
-local gui14 = "#aaae4b"
-local gui15 = "#4baea4"
-local gui16 = "#4d4bae"
-local gui17 = "#ae4b78"
+local gui12 = "#b65753"
+local gui13 = "#7d7d02"
+local gui14 = "#408b48"
+local gui15 = "#008e80"
+local gui16 = "#327cbd"
+local gui17 = "#8c62b0"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -72,7 +72,7 @@ vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "oomox-prisonercoin-survey-complete"
+vim.g.colors_name = "oomox-Survey"
 
 -- Vim editor colors
 vim.api.nvim_set_hl(0, 'Normal', { fg = gui05, bg = gui00, ctermfg = cterm05, ctermbg = cterm00 })

@@ -4,7 +4,7 @@ layout {
     	focus-ring {
 		on
 		width 4
-		active-color "#c4fe8b"
+		active-color "#c5ff8c"
 		inactive-color "#000000"
 		urgent-color "#ff0000"
 	}
@@ -17,8 +17,8 @@ layout {
 		length total-proportion=1.0
 		gaps-between-tabs 10
 		position "left"
-		active-color "#c4fe8b"
-		inactive-color "#14516a"
+		active-color "#c5ff8c"
+		inactive-color "#051233"
 		urgent-color "ff0000"
 	}
 }

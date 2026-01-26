@@ -18,7 +18,7 @@ layout {
 		gaps-between-tabs 10
 		position "left"
 		active-color "#ec441d"
-		inactive-color "#b55944"
+		inactive-color "#2b2a3a"
 		urgent-color "ff0000"
 	}
 

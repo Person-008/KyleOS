@@ -1,4 +1,4 @@
--- oomox-Belgium scheme by oomox-Belgium
+-- oomox-SlowEnd scheme by oomox-SlowEnd
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#0f041b"
-local gui01 = "#856a7b"
-local gui02 = "#856a7b"
-local gui03 = "#3c5b6d"
-local gui04 = "#6bb8c8"
-local gui05 = "#69b3c1"
-local gui06 = "#acf6ff"
-local gui07 = "#acf6ff"
-local gui08 = "#bb1458"
-local gui09 = "#bb6c30"
-local gui0A = "#bb6c30"
-local gui0B = "#7d9232"
-local gui0C = "#51ada0"
-local gui0D = "#6139d3"
-local gui0E = "#a724bf"
-local gui0F = "#a72c30"
+local gui00 = "#0d001a"
+local gui01 = "#582557"
+local gui02 = "#582557"
+local gui03 = "#3d284d"
+local gui04 = "#000006"
+local gui05 = "#6e5181"
+local gui06 = "#6cb9c9"
+local gui07 = "#6cb9c9"
+local gui08 = "#874a51"
+local gui09 = "#715d20"
+local gui0A = "#715d20"
+local gui0B = "#57662e"
+local gui0C = "#036d6c"
+local gui0D = "#1e6883"
+local gui0E = "#744f7b"
+local gui0F = "#683f24"
 
 -- Base24 colors.
-local gui10 = "#0f041b"
-local gui11 = "#0f041b"
-local gui12 = "#bb1458"
-local gui13 = "#bb6c30"
-local gui14 = "#7d9232"
-local gui15 = "#51ada0"
-local gui16 = "#6139d3"
-local gui17 = "#a724bf"
+local gui10 = "#0d001a"
+local gui11 = "#0d001a"
+local gui12 = "#874a51"
+local gui13 = "#715d20"
+local gui14 = "#57662e"
+local gui15 = "#036d6c"
+local gui16 = "#1e6883"
+local gui17 = "#744f7b"
 
 -- Base16 colors.
 local cterm00 = 0

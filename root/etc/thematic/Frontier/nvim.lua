@@ -1,8 +1,4 @@
--- Modify runtimepath to also search the system-wide Vim directory
--- (eg. for Vim runtime files from Arch Linux packages)
-vim.opt.runtimepath:append({ '/usr/share/vim/vimfiles', '/usr/share/vim/vimfiles/after' })
-
--- oomox-Gigavolt scheme by oomox-Gigavolt
+-- oomox-Frontier scheme by oomox-Frontier
 --
 -- Generated from this template:
 --
@@ -17,32 +13,32 @@ vim.opt.runtimepath:append({ '/usr/share/vim/vimfiles', '/usr/share/vim/vimfiles
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#181b22"
-local gui01 = "#444f4c"
-local gui02 = "#444f4c"
-local gui03 = "#837957"
-local gui04 = "#04070e"
-local gui05 = "#efd98d"
-local gui06 = "#ffffd0"
-local gui07 = "#ffffd0"
-local gui08 = "#de3858"
-local gui09 = "#ccb444"
-local gui0A = "#ccb444"
-local gui0B = "#9fce63"
-local gui0C = "#28eef0"
-local gui0D = "#664ffa"
-local gui0E = "#ca81ff"
-local gui0F = "#c1623a"
+local gui00 = "#0a0a10"
+local gui01 = "#47534e"
+local gui02 = "#47534e"
+local gui03 = "#42452b"
+local gui04 = "#000000"
+local gui05 = "#7b8046"
+local gui06 = "#efd98d"
+local gui07 = "#efd98d"
+local gui08 = "#a5685f"
+local gui09 = "#867c41"
+local gui0A = "#867c41"
+local gui0B = "#6b8551"
+local gui0C = "#378a83"
+local gui0D = "#567ea9"
+local gui0E = "#916b97"
+local gui0F = "#815d3c"
 
 -- Base24 colors.
-local gui10 = "#181b22"
-local gui11 = "#181b22"
-local gui12 = "#de3858"
-local gui13 = "#ccb444"
-local gui14 = "#9fce63"
-local gui15 = "#28eef0"
-local gui16 = "#664ffa"
-local gui17 = "#ca81ff"
+local gui10 = "#0a0a10"
+local gui11 = "#0a0a10"
+local gui12 = "#a5685f"
+local gui13 = "#867c41"
+local gui14 = "#6b8551"
+local gui15 = "#378a83"
+local gui16 = "#567ea9"
+local gui17 = "#916b97"
 
 -- Base16 colors.
 local cterm00 = 0

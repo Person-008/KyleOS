@@ -1,40 +1,37 @@
-[font]
-normal = { family = "proggyclean Nerd Font", style = "Regular" }
-size = 15
-# Base16 oomox-prisonercoin-survey-complete - alacritty color config
-# oomox-prisonercoin-survey-complete
+# Base16 oomox-SlowEnd - alacritty color config
+# oomox-SlowEnd
 
 [colors]
 draw_bold_text_with_bright_colors = false
 
 # Default colors
 [colors.primary]
-background = '0x0f041b'
-foreground = '0x69b3c1'
+background = '0x0d001a'
+foreground = '0x6e5181'
 
 # Colors the cursor will use if `custom_cursor_colors` is true
 [colors.cursor]
-text = '0x0f041b'
-cursor = '0x69b3c1'
+text = '0x0d001a'
+cursor = '0x6e5181'
 
 # Normal colors
 [colors.normal]
-black = '0x0f041b'
-red = '0xbb1458'
-green = '0x7d9232'
-yellow = '0xbb6c30'
-blue = '0x6139d3'
-magenta = '0xa724bf'
-cyan = '0x51ada0'
-white = '0x69b3c1'
+black = '0x0d001a'
+red = '0x874a51'
+green = '0x57662e'
+yellow = '0x715d20'
+blue = '0x1e6883'
+magenta = '0x744f7b'
+cyan = '0x036d6c'
+white = '0x6e5181'
 
 # Bright colors
 [colors.bright]
-black = '0x3c5b6d'
-red = '0xbb6c30'
-green = '0x856a7b'
-yellow = '0x856a7b'
-blue = '0x000007'
-magenta = '0xacf6ff'
-cyan = '0xa72c30'
-white = '0xacf6ff'
+black = '0x3d284d'
+red = '0x715d20'
+green = '0x582557'
+yellow = '0x582557'
+blue = '0x000006'
+magenta = '0x6cb9c9'
+cyan = '0x683f24'
+white = '0x6cb9c9'

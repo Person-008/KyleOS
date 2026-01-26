@@ -1,24 +1,5 @@
 
 layout {
-	gaps 16
-	center-focused-column "never"
-
-	// You can customize the widths that "switch-preset-column-width" (Mod+R) toggles between.
-	preset-column-widths {
-		proportion 0.33333
-		proportion 0.5
-		proportion 0.66667
-		proportion 1.0
-	}
-	preset-window-heights {
-		proportion 0.33333
-		proportion 0.5
-		proportion 0.66667
-		proportion 1.0
-	}
-
-
-	default-column-width { proportion 0.5; }
 
     	focus-ring {
 		on
@@ -37,14 +18,7 @@ layout {
 		gaps-between-tabs 10
 		position "left"
 		active-color "#72eef6"
-		inactive-color "#247078"
+		inactive-color "#1a1c2c"
 		urgent-color "ff0000"
-	}
-
-	struts {
-		left 16
-		right 16
-		top 16
-		bottom 16
 	}
 }

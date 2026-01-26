@@ -1,17 +1,17 @@
 /**
- * Base16 oomox-prisonercoin-survey-complete ROFI Color theme
+ * Base16 oomox-Survey ROFI Color theme
  *
  * Authors
- *  Scheme: oomox-prisonercoin-survey-complete
+ *  Scheme: oomox-Survey
  *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
  */
 
 * {
-    red:                         rgba ( 174, 84, 75, 100 % );
-    blue:                        rgba ( 77, 75, 174, 100 % );
+    red:                         rgba ( 182, 87, 83, 100 % );
+    blue:                        rgba ( 50, 124, 189, 100 % );
     lightfg:                     rgba ( 238, 195, 153, 100 % );
-    lightbg:                     rgba ( 119, 68, 67, 100 % );
-    foreground:                  rgba ( 224, 127, 95, 100 % );
+    lightbg:                     rgba ( 105, 63, 64, 100 % );
+    foreground:                  rgba ( 181, 89, 68, 100 % );
     background:                  rgba ( 20, 35, 58, 100 % );
     background-color:            rgba ( 20, 35, 58, 0 % );
     separatorcolor:              @foreground;
