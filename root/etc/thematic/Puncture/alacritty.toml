@@ -35,3 +35,6 @@ blue = '0x000000'
 magenta = '0xc5ff8c'
 cyan = '0xb87d39'
 white = '0xc5ff8c'
+[font]
+size = 15
+normal = { family = "proggyclean Nerd Font", style = "Regular" }
