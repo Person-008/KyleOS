@@ -41,7 +41,7 @@ wev
 wireplumber
 wl-clipboard
 xdg-desktop-portal-gtk
-xdg-desktop-portal-wlr
+xdg-desktop-portal-gnome
 waybar
 ufw
 hyfetch
