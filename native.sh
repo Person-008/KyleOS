@@ -7,6 +7,7 @@ cantarell-fonts
 cool-retro-term
 openssh
 man
+mako
 cowsay
 fastfetch
 fbset
