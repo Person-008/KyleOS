@@ -6,6 +6,7 @@ aspell
 cantarell-fonts
 cool-retro-term
 openssh
+grim
 man
 mako
 cowsay
