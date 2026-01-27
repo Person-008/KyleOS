@@ -8,6 +8,7 @@ synclist="$(echo "$config" | grep SYNC | awk -F'"' '{print $2}')"
 gtk="$(echo "$config" | grep GTK | awk -F'"' '{print $2}')"
 icon="$(echo "$config" | grep ICON | awk -F'"' '{print $2}')"
 wallpaper="$(echo "$config" | grep WALLPAPER | awk -F'"' '{print $2}')"
+thumbnail="$(echo "$config" | grep THUMBNAIL | awk -F'"' '{print $2}')"
 
 # SYNC files
 IFS=$'\n'

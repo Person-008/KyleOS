@@ -21,8 +21,8 @@ else
 		# get the theme name
 		theme=$(basename $config)
 		config=$(cat $config/theme.conf | grep -v "#")
-		wallpaper=$(echo "$config" | grep WALLPAPER | awk -F'"' '{print $2}') || exit 1
-		echo -en "$theme\0icon\x1f/etc/thematic/$theme/$wallpaper\n"
+		thumbnail=$(echo "$config" | grep THUMBNAIL | awk -F'"' '{print $2}') || exit 1
+		echo -en "$theme\0icon\x1f/etc/thematic/$theme/$thumbnail\n"
 
 	done
 fi
