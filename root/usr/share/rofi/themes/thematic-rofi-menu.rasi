@@ -3,6 +3,7 @@
 window {
 padding: 20px;
 width: 680px;
+border-radius: 80px 0px 80px 0px;
 }
 
 mainbox {

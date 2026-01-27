@@ -1,9 +1,8 @@
 // default window behaviour
 window-rule {
-    geometry-corner-radius 0
     clip-to-geometry true
     opacity 1.0
-
+    geometry-corner-radius 10 0 10 0
     //baba-is-float true
 }
 
