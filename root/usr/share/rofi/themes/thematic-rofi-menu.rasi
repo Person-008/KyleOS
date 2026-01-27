@@ -3,7 +3,7 @@
 window {
 padding: 20px;
 width: 680px;
-border-radius: 80px 0px 80px 0px;
+border-radius: 40px 0px 80px 0px;
 }
 
 mainbox {
@@ -22,7 +22,8 @@ columns: 5;
 element {
 children: [ element-icon ];
 orientation: vertical;
-border-radius: 40px 0px 40px 0px;
+border-radius: 20px 0px 40px 0px;
+border: 1px solid;
 }
 
 element selected {
