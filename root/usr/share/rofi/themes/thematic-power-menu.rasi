@@ -22,9 +22,8 @@ listview, {
 }
 
 element {
-  children: [element-icon, element-text];
+  children: [element-text];
   orientation: vertical;
-  margin: 0.5em;
   border-radius: 20px 0px 40px 0px;
 }
 
@@ -37,8 +36,8 @@ element-icon {
 
 
 element-text {
-  margin: 0.5em;
-  font: "proggyclean Nerd Font 20";
+  padding: 20px 20px 20px 50px;
+  font: "proggyclean Nerd Font 180";
   vertical-align: 0.5;
   horizontal-align: 0.5;
 }

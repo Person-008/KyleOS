@@ -1,36 +1,40 @@
 #!/usr/bin/env bash
 
-if [ "$*" = "Shut Down" ]; then
+if [ "$*" = "󰑓 " ]; then
 	command=$"systemctl poweroff"
 	# Override the previously set prompt.
 	echo -en "\x00prompt\x1fChange prompt\n"
-	echo -en "Cancel\0icon\x1f/usr/share/icons/oomox-Survey/scalable/actions/window-close-symbolic.svg\n"
-	echo -en "Confirm​\0icon\x1f/usr/share/icons/oomox-Survey/scalable/actions/object-select-symbolic.svg\n"
+	echo -en "󱎘 \n"
+	echo -en "󰄬 \n"
 fi
 
-if [ "$*" = "Reboot" ]; then
+if [ "$*" = "󰐥 " ]; then
 	command=$"systemctl reboot"
 	# Override the previously set prompt.
 	echo -en "\x00prompt\x1fChange prompt\n"
-	echo -en "Cancel\0icon\x1f/usr/share/icons/oomox-Survey/scalable/actions/window-close-symbolic.svg\n"
-	echo -en "Confirm\0icon\x1f/usr/share/icons/oomox-Survey/scalable/actions/object-select-symbolic.svg\n"
+	echo -en "󱎘 ​\n"
+	echo -en "󰄬 ​\n"
 fi
 
-if [ "$*" = "Confirm​" ]; then
+if [ "$*" = "󰄬 ​" ]; then
 	systemctl poweroff
 	exit 0
 fi
 
-if [ "$*" = "Confirm" ]; then
+if [ "$*" = "󱎘 ​" ]; then
+	exit 0
+fi
+
+if [ "$*" = "󰄬 " ]; then
 	systemctl reboot
 	exit 0
 fi
 
-if [ "$*" = "Cancel" ]; then
+if [ "$*" = "󱎘 " ]; then
 	exit 0
 fi
 
-if [ "$*" = "Lock Screen" ]; then
+if [ "$*" = " " ]; then
 	/usr/share/scripts/lock.sh
 	exit 0
 fi
@@ -39,7 +43,7 @@ if [ "$@" ]; then
 	# Override the previously set prompt.
 	echo -en "\x00prompt\x1fChange prompt\n"
 else
-	echo -en "Lock Screen\0icon\x1f/usr/share/icons/oomox-Survey/scalable/status/system-lock-screen-symbolic.svg\n"
-	echo -en "Shut Down\0icon\x1f/usr/share/icons/oomox-Survey/scalable/actions/system-devices-symbolic.svg\n"
-	echo -en "Reboot\0icon\x1f/usr/share/icons/oomox-Survey/scalable/actions/view-refresh-symbolic.svg\n"
+	echo -en " \n"
+	echo -en "󰐥 \n"
+	echo -en "󰑓 \n"
 fi
