@@ -31,13 +31,13 @@
     {
       "type": "shell",
       "key": "    Shell",
-      "format": "{process-name}"
+      "format": "{pretty-name} {version}"
     },
     "break",
     {
       "type": "wm",
       "key": "       WM",
-      "format": "{process-name}"
+      "format": "{pretty-name} {version}"
     },
     {
       "type": "theme",
@@ -47,12 +47,12 @@
     {
       "type": "terminalfont",
       "key": "Term-Font",
-      "format": "{name} - {size}p"
+      "format": "{name} - {size}pt"
     },
     {
       "type": "cpu",
       "key": "      CPU",
-      "format": "{march} {vendor} - {cores-logical} core"
+      "format": "{name} {cores-logical}-Thread"
     },
     {
       "type": "gpu",
@@ -64,10 +64,16 @@
       "key": "   Memory",
       "format": "{used} / {total} - {percentage}"
     },
+    "break",
     {
       "type": "localip",
-      "key": "       IP",
+      "key": "    Local",
       "format": "{ipv4}"
+    },
+    {
+      "type": "publicip",
+      "key": "   Public",
+      "format": "{ip} - {location}"
     },
     "break",
     "separator",

@@ -1,8 +1,8 @@
 @import "~/.config/rofi/color.rasi"
 
 window {
-padding: 0.5em;
-
+padding: 20px;
+width: 680px;
 }
 
 mainbox {
@@ -12,26 +12,22 @@ children: [listview];
 
 listview, {
 border: 0px;
-margin: 5px;
+margin: 10px;
 scrollbar: false;
 lines:   1;
 columns: 5;
 }
 
 element {
-children: [ element-icon, element-text ];
+children: [ element-icon ];
 orientation: vertical;
+border-radius: 40px 0px 40px 0px;
+}
+
+element selected {
+border: 5px solid;
 }
 
 element-icon {
-size: 15em;
+size: 480px;
 }
-
-
-element-text {
-font: "proggyclean Nerd Font 20";
-vertical-align: 0.5;
-horizontal-align: 0.5;
-background-color: #00000000;
-}
-
