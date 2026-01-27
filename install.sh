@@ -41,14 +41,6 @@ fi
 echo
 echo \#############################################################################################################
 echo
-read -p "install discord? [y/n]: "
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-	echo discord >> temp.nat
-fi
-echo
-echo \#############################################################################################################
-echo
 read -p "install vlc with all plugins? [y/n]: "
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
@@ -82,36 +74,11 @@ fi
 echo
 echo \#############################################################################################################
 echo
-read -p "install prism launcher? [y/n]: "
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-	echo prismlauncher >> temp.nat
-	echo jre21-openjdk >> temp.nat
-fi
-echo
-echo \#############################################################################################################
-echo
-read -p "install fcitx5-mozc (japanese support | needs to be configured)? [y/n]: "
+read -p "install fcitx5-mozc (japanese support - needs to be configured)? [y/n]: "
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
 	echo fcitx5-mozc >> temp.nat
 	echo fcitx5-config-qt >> temp.nat
-fi
-echo
-echo \#############################################################################################################
-echo
-read -p "install obs-studio? [y/n]: "
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-	echo obs-studio >> temp.nat
-fi
-echo
-echo \#############################################################################################################
-echo
-read -p "install audacity? [y/n]: "
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-	echo audacity >> temp.nat
 fi
 
 # install pacman packages
