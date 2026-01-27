@@ -122,5 +122,6 @@ sudo systemctl disable getty@tty3.service
 sudo systemctl enable ly@tty1.service
 sudo systemctl enable ly@tty2.service
 sudo systemctl enable ly@tty3.service
+gsettings set org.gnome.desktop.interface color-scheme \'prefer-dark\'
 
-killall bash
+fish
