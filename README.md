@@ -131,7 +131,8 @@ Custom themes need an entry in /etc/thematic/ThemeName.conf
 ## License
 
 > [!IMPORTANT]
-> This repo was forked from a repo i had originally created with my work related github account ```rosenkranzAusbildung``` and ```Person-008``` are the same person
+> This repo was forked from a repo i had originally created with my work related github account
+> ```rosenkranzAusbildung``` and ```Person-008``` are the same person
 
 The Artworks for the Wallpapers were not created by me, i just based the color schemes on them.
 They were all created by [PrisonerCoin](https://prisonercoin.newgrounds.com) and are all licensed under a [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode) license. As such the thumbnails I created using these images are also licensed under that same license
