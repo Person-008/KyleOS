@@ -62,15 +62,7 @@ read -p "install opentabletdriver? [y/n]: "
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
 	echo opentabletdriver >> temp.fo
-fi
-echo
-echo \#############################################################################################################
-echo
-read -p "install anki? [y/n]: "
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-	echo anki >> temp.fo
-fi
+fi:
 echo
 echo \#############################################################################################################
 echo
@@ -85,7 +77,6 @@ fi
 cat temp.nat | sudo pacman -Sy - --noconfirm
 
 # install AUR packages
-sudo pacman -Sy --needed base-devel --noconfirm
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
@@ -94,7 +85,6 @@ cd ..
 cat temp.fo | yay -Sy - --answerdiff None --answerclean None --mflags "--noconfirm" --sudoloop
 
 # apply configs
-sudo pacman -Sy --needed rsync --noconfirm
 
 su -c 'rsync -crl root/ / -v'
 gsettings set org.gnome.desktop.interface gtk-theme Survey

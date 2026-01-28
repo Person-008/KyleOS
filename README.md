@@ -33,7 +33,13 @@ Themes based on artworks by [PrisonerCoin](https://prisonercoin.newgrounds.com/)
 > a mostly complete package list can be found in [native.sh](https://github.com/Person-008/KyleOS/blob/main/native.sh) & [foreign.sh](https://github.com/Person-008/KyleOS/blob/main/foreign.sh)
 > some optional packages are listed in [install.sh](https://github.com/Person-008/KyleOS/blob/main/install.sh)
 
-TODO: add images  
+![themes]()
+![thematic menu]()
+![rofi menu]()
+![power menu]()
+
+![lock screen 2]()
+![lock screen 1]()
 
 themes are applied to:  
 - alacritty  
@@ -58,14 +64,14 @@ themes are applied to:
 > The script will ask for your password and confirmation a handful of times  
 - follow the prompts
 > [!IMPORTANT]  
-> After the script has run launch ```fish``` and follow the instructions to set up ```hyfetch```
+> The script will start ```fish```  at the end, follow the instructions to set up ```hyfetch```
 
 > [!NOTE]
 > This is necessary because fish is configured to launch with hyfetch, and the first time hyfetch is launched it asks for configuration  
 > which causes a black screen when logging in to Niri if it is not configured (i may or may not look into finding a fix for this)
 
 > [!IMPORTANT]  
-> The Wallpaper will not be set on the first launch  
+> The theme will not be set on the first launch  
 > to change the theme and apply a wallpaper press ```Mod + T```
 
 > [!IMPORTANT]  
