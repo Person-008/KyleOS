@@ -147,6 +147,9 @@ They were all created by [PrisonerCoin(2023)](https://prisonercoin.newgrounds.co
 
 All except the images in this repository are licensed under the following license
 
+> [!NOTE]
+> Do let me know if I made a mistake in the licensing, I am doing this for the first time
+
 MIT License
 
 Copyright (c) 2026 Rosenkranz
