@@ -117,7 +117,7 @@ themes are applied to:
 
 ## Custom Themes
 
-I am using my own custom theme changer called [thematic](https://github.com/Person-008/KyleOS/tree/main/root/usr/share/scripts/thematic)
+I am using my own custom theme changer called [thematic](https://github.com/Person-008/KyleOS/tree/main/root/usr/share/scripts)
 
 Custom themes need an entry in /etc/thematic/ThemeName.conf
 > [!NOTE]
