@@ -131,13 +131,19 @@ Custom themes need an entry in /etc/thematic/ThemeName.conf
 ## License
 
 The Artworks for the Wallpapers were not created by me, i just based the color schemes on them.
+They were all created by [PrisonerCoin(2023)](https://prisonercoin.newgrounds.com) and are all licensed under a [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode) license. As such the thumbnails I created using these images are also licensed under that same license
 
+[Dyson.gif](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Dyson/Dyson.gif) - [Dyson Analasys](https://www.newgrounds.com/art/view/prisonercoin/dyson-anaysis) by [cc PrisonerCoin(2023)](https://prisonercoin.newgrounds.com)  
+[Frontier.gif](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Frontier/Frontier.gif) - [Final Frontier](https://www.newgrounds.com/art/view/prisonercoin/final-frontier) [cc PrisonerCoin(2022)](https://prisonercoin.newgrounds.com)  
+[Puncture.gif](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Puncture/Puncture.gif) - [Puncture](https://www.newgrounds.com/art/view/prisonercoin/puncture) by [cc PrisonerCoin(2023)](https://prisonercoin.newgrounds.com)  
+[SlowEnd.gif](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/SlowEnd/SlowEnd.gif) - [Slow End](https://www.newgrounds.com/art/view/prisonercoin/slow-end) by [cc PrisonerCoin(2023)](https://prisonercoin.newgrounds.com)  
+[Survey.jpg](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Survey/Survey.jpg) - [Survey Complete](https://www.artstation.com/artwork/Ze5nDX) by [cc PrisonerCoin(2021)](https://prisonercoin.newgrounds.com)  
 
-[Dyson.gif](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Dyson/Dyson.gif) - [Dyson Analasys](https://www.newgrounds.com/art/view/prisonercoin/dyson-anaysis) by [PrisonerCoin(2023)](https://prisonercoin.newgrounds.com)  
-[Frontier.gif](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Frontier/Frontier.gif) - [Final Frontier](https://www.newgrounds.com/art/view/prisonercoin/final-frontier) [by PrisonerCoin(2022)](https://prisonercoin.newgrounds.com)  
-[Puncture.gif](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Puncture/Puncture.gif) - [Puncture](https://www.newgrounds.com/art/view/prisonercoin/puncture) by [PrisonerCoin(2023)](https://prisonercoin.newgrounds.com)  
-[SlowEnd.gif](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/SlowEnd/SlowEnd.gif) - [Slow End](https://www.newgrounds.com/art/view/prisonercoin/slow-end) by [PrisonerCoin(2023)](https://prisonercoin.newgrounds.com)  
-[Survey.jpg](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Survey/Survey.jpg) - [Survey Complete](https://www.artstation.com/artwork/Ze5nDX) by [PrisonerCoin(2021)](https://prisonercoin.newgrounds.com)  
+[Dyson thumbnail](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Dyson/Thumbnail.png) cc Rosenkranz
+[Frontier thumbnail](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Frontier/Thumbnail.png) cc Rosenkranz
+[Puncture thumbnail](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Puncture/Thumbnail.png) cc Rosenkranz
+[SlowEnd thumbnail](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/SlowEnd/Thumbnail.png) cc Rosenkranz
+[Survey thumbnail](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Survey/Thumbnail.png) cc Rosenkranz
 
 All except the images in this repository are licensed under the following license
 
