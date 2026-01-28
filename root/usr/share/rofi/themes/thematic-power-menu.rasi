@@ -1,8 +1,11 @@
 @import "~/.config/rofi/color.rasi"
 
 window {
-  padding: 0.5em;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 
+  border-radius: 40px 0px 80px 0px;
 }
 
 mainbox {
@@ -19,22 +22,14 @@ listview, {
 }
 
 element {
-  children: [element-icon, element-text];
+  children: [element-text];
   orientation: vertical;
-  margin: 0.5em;
+  border-radius: 20px 0px 40px 0px;
 }
-
-element-icon {
-  margin: 0.5em;
-  size: 5em;
-  vertical-align: 0.5;
-  horizontal-align: 0.5;
-}
-
 
 element-text {
-  margin: 0.5em;
-  font: "proggyclean Nerd Font 20";
+  padding: 20px 20px 20px 40px;
+  font: "proggyclean Nerd Font 100";
   vertical-align: 0.5;
   horizontal-align: 0.5;
 }

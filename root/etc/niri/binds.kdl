@@ -1,7 +1,7 @@
 
 binds {
-    Menu hotkey-overlay-title="rofi drun" { spawn-sh "pkill rofi || rofi -show drun"; }
-    Mod+space hotkey-overlay-title="rofi window" { spawn-sh "pkill rofi || rofi -show window"; }
+    Menu hotkey-overlay-title="rofi drun" { spawn-sh "pkill rofi || rofi -show drun -config /usr/share/rofi/themes/thematic.rasi"; }
+    Mod+space hotkey-overlay-title="rofi window" { spawn-sh "pkill rofi || rofi -show window -config /usr/share/rofi/themes/thematic.rasi"; }
 
 
     Mod+T hotkey-overlay-title="Change theme" { spawn-sh "pkill rofi || exec rofi -config /usr/share/rofi/themes/thematic-rofi-menu.rasi -show powermenu -modi powermenu:/usr/share/scripts/thematic-rofi-menu -show-icons"; }
