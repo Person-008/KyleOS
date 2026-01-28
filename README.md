@@ -11,7 +11,7 @@
 [Images](#images)  
 [Installing](#installing)  
 [Custom Themes](#custom-themes)  
-[Credits](#credits)  
+[Credits](#credits) 
 
 ## What is this?
 
@@ -36,7 +36,7 @@ And I don't plan on meeting anyone named Kyle.
 Themes based on artworks by [PrisonerCoin](https://prisonercoin.newgrounds.com/)
 
 > [!NOTE]
-> a mostly complete package list can be found in [native.sh](https://github.com/Person-008/KyleOS/blob/main/native.sh) & [foreign.sh](https://github.com/Person-008/KyleOS/blob/main/foreign.sh)
+> a mostly complete package list can be found in [native.sh](https://github.com/Person-008/KyleOS/blob/main/native.sh) & [foreign.sh](https://github.com/Person-008/KyleOS/blob/main/foreign.sh)  
 > some optional packages are listed in [install.sh](https://github.com/Person-008/KyleOS/blob/main/install.sh)
 
 ## Images
@@ -95,26 +95,25 @@ themes are applied to:
 > I am not responsible if any of this code causes loss of data.  
 > Be a responsible adult, read the scripts.  
 
-- follow the Arch Linux [Installation guide](https://wiki.archlinux.org/title/Installation_guide) to set up a minimal arch installation with internet access, with at least one superuser that isn't root
+- follow the Arch Linux [Installation guide](https://wiki.archlinux.org/title/Installation_guide) to set up a minimal arch installation with internet access,  
+  with at least one superuser that isn't root
 - clone the repo ```git clone https://github.com/Person-008/KyleOS```
 - ```cd KyleOS```
 - install using ```bash install.shcurro```
+- follow the prompts
 > [!NOTE]  
 > The script will ask for your password and confirmation a handful of times  
-- follow the prompts
-> [!IMPORTANT]  
-> The script will start ```fish```  at the end, follow the instructions to set up ```hyfetch```
+> Don't leave it unattended for long
 
 > [!NOTE]
+> If niri doesn't start when logging in, you may need to configure hyfetch by logging into a shell  
+> 
 > This is necessary because fish is configured to launch with hyfetch, and the first time hyfetch is launched it asks for configuration  
 > which causes a black screen when logging in to Niri if it is not configured (i may or may not look into finding a fix for this)
 
 > [!IMPORTANT]  
 > The theme will not be set on the first launch  
 > to change the theme and apply a wallpaper press ```Mod + T```
-
-> [!IMPORTANT]  
-> The custom rofi theme "thematic" needs to be enabled using ```rofi-theme-selector```
 
 ## Custom Themes
 
