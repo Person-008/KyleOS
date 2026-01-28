@@ -137,7 +137,12 @@ They were all created by [PrisonerCoin(2023)](https://prisonercoin.newgrounds.co
 [Frontier.gif](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Frontier/Frontier.gif) - [Final Frontier](https://www.newgrounds.com/art/view/prisonercoin/final-frontier) - [cc PrisonerCoin(2022)](https://prisonercoin.newgrounds.com)  
 [Puncture.gif](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Puncture/Puncture.gif) - [Puncture](https://www.newgrounds.com/art/view/prisonercoin/puncture) - [cc PrisonerCoin(2023)](https://prisonercoin.newgrounds.com)  
 [SlowEnd.gif](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/SlowEnd/SlowEnd.gif) - [Slow End](https://www.newgrounds.com/art/view/prisonercoin/slow-end) - [cc PrisonerCoin(2023)](https://prisonercoin.newgrounds.com)  
-[Survey.jpg](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Survey/Survey.jpg) - [Survey Complete](https://www.artstation.com/artwork/Ze5nDX) - [cc PrisonerCoin(2021)](https://prisonercoin.newgrounds.com)  
+
+> [!NOTE]
+> Since Survey Complere isn't licensed in any way, I have chosen to remove it from this repository for now.  
+> I will try to contact the Artist to get some sort of license  
+> in the meantime you can find the artwork here:  
+> [Survey.jpg](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Survey/Survey.jpg) - [Survey Complete](https://www.artstation.com/artwork/Ze5nDX) - [PrisonerCoin(2021)](https://prisonercoin.newgrounds.com)  
 
 [Dyson thumbnail](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Dyson/Thumbnail.png) - cc Rosenkranz  
 [Frontier thumbnail](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Frontier/Thumbnail.png) - cc Rosenkranz  
