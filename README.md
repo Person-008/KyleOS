@@ -11,7 +11,7 @@
 [Images](#images)  
 [Installing](#installing)  
 [Custom Themes](#custom-themes)  
-[Credits](#credits) 
+[License](#license) 
 
 ## What is this?
 
@@ -128,14 +128,37 @@ Custom themes need an entry in /etc/thematic/ThemeName.conf
 > for gtk themes and icons i recommend [themix-gui](https://github.com/themix-project/themix-gui) tool
 > it can also export all other color schemes except the niri colors, but those are just the active and inactive colors in the niri layout file
 
-## Credits
+## License
 
 The Artworks for the Wallpapers were not created by me, i just based the color schemes on them.
 
-The themes were generated using [themix-gui](https://github.com/themix-project/themix-gui).
 
 [Dyson.gif](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Dyson/Dyson.gif) - [Dyson Analasys](https://www.newgrounds.com/art/view/prisonercoin/dyson-anaysis) by [PrisonerCoin(2023)](https://prisonercoin.newgrounds.com)  
 [Frontier.gif](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Frontier/Frontier.gif) - [Final Frontier](https://www.newgrounds.com/art/view/prisonercoin/final-frontier) [by PrisonerCoin(2022)](https://prisonercoin.newgrounds.com)  
 [Puncture.gif](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Puncture/Puncture.gif) - [Puncture](https://www.newgrounds.com/art/view/prisonercoin/puncture) by [PrisonerCoin(2023)](https://prisonercoin.newgrounds.com)  
 [SlowEnd.gif](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/SlowEnd/SlowEnd.gif) - [Slow End](https://www.newgrounds.com/art/view/prisonercoin/slow-end) by [PrisonerCoin(2023)](https://prisonercoin.newgrounds.com)  
 [Survey.jpg](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Survey/Survey.jpg) - [Survey Complete](https://www.artstation.com/artwork/Ze5nDX) by [PrisonerCoin(2021)](https://prisonercoin.newgrounds.com)  
+
+All except the images in this repository are licensed under the following license
+
+MIT License
+
+Copyright (c) 2026 Rosenkranz
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
