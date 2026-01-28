@@ -8,6 +8,7 @@
 ---
 
 [What is this?](#what-is-this)  
+[Images](#images)  
 [Installing](#installing)  
 [Custom Themes](#custom-themes)  
 [Credits](#credits)  
@@ -37,6 +38,8 @@ Themes based on artworks by [PrisonerCoin](https://prisonercoin.newgrounds.com/)
 > [!NOTE]
 > a mostly complete package list can be found in [native.sh](https://github.com/Person-008/KyleOS/blob/main/native.sh) & [foreign.sh](https://github.com/Person-008/KyleOS/blob/main/foreign.sh)
 > some optional packages are listed in [install.sh](https://github.com/Person-008/KyleOS/blob/main/install.sh)
+
+## Images
 
 <details>
 <summary>Themes</summary>
