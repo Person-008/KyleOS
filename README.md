@@ -1,5 +1,10 @@
 # KyleOS
 
+
+<p align="center">
+<img src="https://github.com/Person-008/KyleOS/blob/main/images/Frontier.png">
+</p>
+
 ---
 
 [What is this?](#what-is-this)  
@@ -33,13 +38,44 @@ Themes based on artworks by [PrisonerCoin](https://prisonercoin.newgrounds.com/)
 > a mostly complete package list can be found in [native.sh](https://github.com/Person-008/KyleOS/blob/main/native.sh) & [foreign.sh](https://github.com/Person-008/KyleOS/blob/main/foreign.sh)
 > some optional packages are listed in [install.sh](https://github.com/Person-008/KyleOS/blob/main/install.sh)
 
-![themes]()
-![thematic menu]()
-![rofi menu]()
-![power menu]()
+<details>
+<summary>Themes</summary>
+<p align="center">
+<img src="https://github.com/Person-008/KyleOS/blob/main/images/themes.gif" width = 500>
+</p>
+</details>
 
-![lock screen 2]()
-![lock screen 1]()
+<details>
+<summary>Thematic Menu</summary>
+<p align="center">
+<img src="https://github.com/Person-008/KyleOS/blob/main/images/thematic.gif?raw=true" width = 500>
+</p>
+</details>
+
+<details>
+<summary>Rofi Theme</summary>
+<p align="center">
+<img src="https://github.com/Person-008/KyleOS/blob/main/images/rofi.gif?raw=true" width = 500>
+</p>
+</details>
+
+<details>
+<summary>Power Menu</summary>
+<p align="center">
+<img src="https://github.com/Person-008/KyleOS/blob/main/images/power.gif?raw=true" width = 500>
+</p>
+</details>
+
+<details>
+<summary>Lock Screen</summary>
+<p align="center">
+<img src="https://github.com/Person-008/KyleOS/blob/main/images/1.png?raw=true" width = 500>
+</p>
+
+<p align="center">
+<img src="https://github.com/Person-008/KyleOS/blob/main/images/2.png?raw=true" width = 500>
+</p>
+</details>
 
 themes are applied to:  
 - alacritty  
