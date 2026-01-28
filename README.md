@@ -139,11 +139,11 @@ They were all created by [PrisonerCoin(2023)](https://prisonercoin.newgrounds.co
 [SlowEnd.gif](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/SlowEnd/SlowEnd.gif) - [Slow End](https://www.newgrounds.com/art/view/prisonercoin/slow-end) by [cc PrisonerCoin(2023)](https://prisonercoin.newgrounds.com)  
 [Survey.jpg](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Survey/Survey.jpg) - [Survey Complete](https://www.artstation.com/artwork/Ze5nDX) by [cc PrisonerCoin(2021)](https://prisonercoin.newgrounds.com)  
 
-[Dyson thumbnail](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Dyson/Thumbnail.png) cc Rosenkranz
-[Frontier thumbnail](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Frontier/Thumbnail.png) cc Rosenkranz
-[Puncture thumbnail](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Puncture/Thumbnail.png) cc Rosenkranz
-[SlowEnd thumbnail](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/SlowEnd/Thumbnail.png) cc Rosenkranz
-[Survey thumbnail](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Survey/Thumbnail.png) cc Rosenkranz
+[Dyson thumbnail](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Dyson/Thumbnail.png) - cc Rosenkranz  
+[Frontier thumbnail](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Frontier/Thumbnail.png) - cc Rosenkranz  
+[Puncture thumbnail](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Puncture/Thumbnail.png) - cc Rosenkranz  
+[SlowEnd thumbnail](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/SlowEnd/Thumbnail.png) - cc Rosenkranz  
+[Survey thumbnail](https://github.com/Person-008/KyleOS/blob/main/root/etc/thematic/Survey/Thumbnail.png) - cc Rosenkranz  
 
 All except the images in this repository are licensed under the following license
 
