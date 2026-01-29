@@ -155,9 +155,7 @@ They were all created by [PrisonerCoin](https://prisonercoin.newgrounds.com) and
 
 All except the images in this repository are licensed under the following license
 
-> [!NOTE]
-> Do let me know if I made a mistake in the licensing, I am doing this for the first time
-
+```
 MIT License
 
 Copyright (c) 2026 Rosenkranz
@@ -179,3 +177,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
+
+> [!NOTE]
+> Do let me know if I made a mistake in the licensing, I am doing this for the first time
