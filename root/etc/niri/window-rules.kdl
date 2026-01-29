@@ -33,17 +33,6 @@ window-rule{
 	open-on-output "HDMI-A-2"
 }
 
-// open on center display
-window-rule{
-	match app-id="firefox"
-	match title=" - Anki"
-	match app-id="krita"
-	match title="Krita"
-	exclude title=" Krita"
-	default-column-width {proportion 1.0;}
-	open-on-output "DP-2"
-}
-
 // open floating
 window-rule{
     match title="File Operation"

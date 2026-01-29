@@ -37,7 +37,7 @@
 		"scroll-step": 5,
 		"max-volume": 150,
 		"format": "{format_source}  {icon}  {volume}%",
-		"format-muted": "{icon}  --%",
+		"format-muted": "   --%",
 		"on-click" : "pavucontrol",
 		"tooltip": false,
 		"format-source": "󰍬",

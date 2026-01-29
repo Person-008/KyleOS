@@ -1,5 +1,5 @@
 neo-matrix
 corrupter-bin
 tty-clock
-awww
+awww-bin
 rustup
