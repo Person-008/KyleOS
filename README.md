@@ -21,17 +21,16 @@ I call it KyleOS because I want to.
 No my name is not, and never was Kyle.  
 I also don't know anyone named Kyle.  
 And I don't plan on meeting anyone named Kyle.  
-
-|   |   |   |
-|---|---|---|
-| Distro | [Arch](https://archlinux.org/) |
-| WM | [Niri](https://github.com/YaLTeR/niri) |
-| Terminal | [alacritty](https://github.com/alacritty/alacritty) |
-| Bar | [waybar](https://github.com/Alexays/Waybar/) |
-| Menu | [rofi](https://davatorium.github.io/rofi/) |
-| Notification | [mako](https://github.com/emersion/mako) |
-| File Manager | [Thunar](https://docs.xfce.org/xfce/thunar/start) & [ranger](https://ranger.fm/) |
-| Lockscreen | [swaylock](https://github.com/swaywm/swaylock) & [corrupter](https://github.com/r00tman/corrupter)) |
+|||
+|---|---|
+| Distro | [Arch](https://archlinux.org/)
+| WM | [Niri](https://github.com/YaLTeR/niri)
+| Terminal | [alacritty](https://github.com/alacritty/alacritty)
+| Bar | [waybar](https://github.com/Alexays/Waybar/)
+| Menu | [rofi](https://davatorium.github.io/rofi/)
+| Notification | [mako](https://github.com/emersion/mako) 
+| File Manager | [Thunar](https://docs.xfce.org/xfce/thunar/start) & [ranger](https://ranger.fm/)
+| Lockscreen | [swaylock](https://github.com/swaywm/swaylock) & [corrupter](https://github.com/r00tman/corrupter))
 
 Themes based on artworks by [PrisonerCoin](https://prisonercoin.newgrounds.com/)
 
