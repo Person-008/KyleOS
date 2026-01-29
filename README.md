@@ -23,7 +23,6 @@ I also don't know anyone named Kyle.
 And I don't plan on meeting anyone named Kyle.  
 |||
 |---|---|
-| Distro | [Arch](https://archlinux.org/)
 | WM | [Niri](https://github.com/YaLTeR/niri)
 | Terminal | [alacritty](https://github.com/alacritty/alacritty)
 | Bar | [waybar](https://github.com/Alexays/Waybar/)
