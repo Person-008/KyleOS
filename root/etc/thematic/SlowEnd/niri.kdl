@@ -1,4 +1,23 @@
 
+// default window behaviour
+window-rule {
+    clip-to-geometry true
+    geometry-corner-radius 20 0 40 0
+    //baba-is-float true
+}
+
+// sharper corner for any apps that need the top left corner
+window-rule{
+	match app-id="Alacritty"
+	geometry-corner-radius 10 0 40 0
+}
+
+// sharper corner for any apps that neet that for some reason
+window-rule{
+	match app-id="Konsole"
+	geometry-corner-radius 10 0 10 0
+}
+
 layout {
     	focus-ring {
 		on
@@ -11,13 +30,13 @@ layout {
 	tab-indicator {
 		hide-when-single-tab
 		place-within-column
-		corner-radius 1
+		corner-radius 5
 		width 10
-		length total-proportion=1.0
+		length total-proportion=0.8
 		gaps-between-tabs 10
 		position "left"
 		active-color "#6cb9c9"
-		inactive-color "#2e0a30"
+		inactive-color "#582557"
 		urgent-color "ff0000"
 	}
 }
