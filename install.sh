@@ -12,7 +12,7 @@ echo
 read -p "install nvidia drivers? [y/n]: "
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-	echo nvidia-open-dkms >> temp.nat
+	echo nvidia-open >> temp.nat
 	nvidia=true
 fi
 echo
@@ -62,7 +62,6 @@ read -p "install opentabletdriver? [y/n]: "
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
 	echo opentabletdriver >> temp.fo
-fi:
 echo
 echo \#############################################################################################################
 echo
