@@ -3,7 +3,7 @@
 if [ "$1" = "--help" ]  ||  [ "$1" = "-h" ]; then
 	swaylock --help 2>&1| sed -e 's/swaylock/swaylock-corrupter/g' -e '/--image/d' 1>&2
 else
-	DISPLAYS="$(niri msg outputs | grep 'Output' | awk '{print $6}' | grep -Po '\(\K[^)]*')"
+	DISPLAYS=$(niri msg outputs | grep Output | awk "{print $6}" | grep -Po '\(\K[^)]*')
 	BASE_FILE="${TMPDIR:-/tmp/ss}"
  
 	for display in $DISPLAYS; do
