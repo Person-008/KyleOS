@@ -1,7 +1,6 @@
 // default window behaviour
 window-rule {
     clip-to-geometry true
-    opacity 1.0
     geometry-corner-radius 20 0 40 0
     //baba-is-float true
 }
@@ -20,7 +19,6 @@ window-rule{
 
 window-rule{
 	match is-focused=false
-	opacity 0.95
 	focus-ring {
 		off
 	}
@@ -56,7 +54,19 @@ window-rule {
 	match app-id="viewnior"
 	match app-id="thunar"
 	match app-id="discord"
+	match title="hydrus"
 
 	block-out-from "screen-capture"
 }
 
+window-rule {
+	match app-id="steam" title="notificationtoasts"
+	default-floating-position x=10 y=10 relative-to="bottom-right"
+	open-focused false
+}
+
+window-rule {
+	match app-id="com.libretro.RetroArch"
+	open-fullscreen true
+	open-on-output "Iiyama"
+}

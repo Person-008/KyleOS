@@ -3,9 +3,9 @@ binds {
 
     // custom binds
 
-    Menu hotkey-overlay-title="rofi drun" { spawn-sh "pkill rofi || rofi -show drun -config /usr/share/rofi/themes/thematic.rasi"; }
-    Mod+space hotkey-overlay-title="rofi window" { spawn-sh "pkill rofi || rofi -show window -config /usr/share/rofi/themes/thematic.rasi"; }
+    Alt+K hotkey-overlay-title="rofi drun" { spawn-sh "pkill rofi || rofi -show drun -config /usr/share/rofi/themes/thematic.rasi"; }
 
+    Scroll_Lock hotkey-overlay-title="lock screen" { spawn-sh "bash /usr/share/scripts/lock.sh"; }
 
     Mod+T hotkey-overlay-title="Change theme" { spawn-sh "pkill rofi || exec rofi -config /usr/share/rofi/themes/thematic-rofi-menu.rasi -show powermenu -modi powermenu:/usr/share/scripts/thematic-rofi-menu -show-icons"; }
     
@@ -22,8 +22,8 @@ binds {
     XF86AudioMute allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"; }
     //
 
-    XF86AudioRaiseVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1+ -l 1.0"; }
-    XF86AudioLowerVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1-"; }
+	    XF86AudioRaiseVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.01+ -l 1.0"; }
+    XF86AudioLowerVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.01-"; }
 
     XF86MonBrightnessUp allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "+10%"; }
     XF86MonBrightnessDown allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "10%-"; }
@@ -35,6 +35,7 @@ binds {
     Mod+O repeat=false { toggle-overview; }
 
     Mod+Delete repeat=false { close-window; }
+    Mod+F12 repeat=false { close-window; }
 
     Mod+Left  { focus-column-left; }
     Mod+Down  { focus-window-down; }

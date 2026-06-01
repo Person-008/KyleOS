@@ -8,7 +8,7 @@
 	"margin-right": 0,
 	"margin-left": 0,
 
-	"modules-left": ["pulseaudio", "battery"],
+	"modules-left": ["pulseaudio", "battery", "niri/language"],
 	"modules-center": ["clock"],
 	"modules-right": ["network"],
 
@@ -43,5 +43,10 @@
 		"format-source": "󰍬",
 		"format-source-muted": "󰍭",
             	"format-icons": ["", "", ""]
+	},
+	"niri/language": {
+		"format": "{}",
+		"format-en": "US",
+		"format-de": "DE"
 	}
 }
