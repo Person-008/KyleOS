@@ -1,4 +1,5 @@
 alacritty
+awww
 alsa-firmware
 alsa-plugins
 alsa-utils
@@ -10,6 +11,7 @@ exfat-utils
 fastfetch
 ffmpegthumbnailer
 grim
+filezilla
 firefox
 fish
 git
